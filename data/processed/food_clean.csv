@@ -1,0 +1,582 @@
+food_name,category,calories,protein_g,carbs_g,fat_g,fiber_g,sugars_g,sodium_mg,cholesterol_mg,meal_type,water_ml,calorie_category,health_score
+Scrambled Eggs (2 large),protein/dairy,180,12.0,2.0,14.0,0.0,1.0,180,370,breakfast,250,medium,37.0
+Whole Wheat Toast (1 slice),grain,80,4.0,14.0,1.0,2.0,2.0,140,0,breakfast,0,low,52.3
+Coffee (black),beverage,5,0.3,0.0,0.1,0.0,0.0,5,0,breakfast,0,low,42.7
+Banana,fruit,105,1.3,27.0,0.4,3.1,14.0,1,0,breakfast,0,medium,46.4
+Grilled Chicken Salad,meal/protein,350,30.0,10.0,20.0,5.0,4.0,400,80,lunch,500,high,94.0
+Apple,fruit,95,0.5,25.0,0.3,4.4,19.0,2,0,snack,0,low,46.6
+Salmon (4oz grilled),protein/fish,230,25.0,0.0,14.0,0.0,0.0,60,60,dinner,250,medium,76.9
+Quinoa (1 cup cooked),grain,222,8.0,39.0,3.6,5.0,1.0,13,0,dinner,0,medium,74.7
+Steamed Broccoli (1 cup),vegetable,55,3.7,11.2,0.6,5.1,2.0,40,0,dinner,0,low,67.0
+Greek Yogurt (plain 1 cup),dairy,150,25.0,8.0,3.0,0.0,7.0,85,10,snack,250,medium,73.5
+Oatmeal (1 cup cooked),grain,160,6.0,28.0,3.0,4.0,1.0,2,0,breakfast,250,medium,67.6
+Blueberries (1/2 cup),fruit,42,0.5,11.0,0.2,1.8,7.0,1,0,breakfast,0,low,45.1
+Almonds (1 oz),nut,164,6.0,6.0,14.0,3.5,1.0,1,0,snack,0,medium,65.6
+Turkey Sandwich (on wheat),meal/processed,340,22.0,34.0,12.0,5.0,6.0,850,50,lunch,500,high,71.4
+Carrot Sticks (1 cup),vegetable,52,1.2,12.3,0.3,3.6,6.0,88,0,snack,0,low,52.6
+Spaghetti Bolognese,meal/pasta,460,20.0,55.0,18.0,6.0,10.0,700,50,dinner,250,high,72.7
+Side Salad (light dressing),vegetable,70,2.0,8.0,4.0,3.0,3.0,150,0,dinner,0,low,52.3
+Protein Shake (Whey),supplement,120,24.0,3.0,1.0,1.0,2.0,160,5,snack,500,medium,78.7
+Cereal (Frosted Flakes 1 cup),grain/processed,130,2.0,31.0,0.0,1.0,11.0,190,0,breakfast,0,medium,36.8
+Lentil Soup (1 can),meal/legume,230,15.0,35.0,3.0,12.0,6.0,650,0,lunch,250,medium,96.9
+White Rice (1 cup cooked),grain,204,4.2,44.5,0.4,0.6,0.1,2,0,dinner,0,medium,51.3
+Tofu Stir-fry,meal/vegetarian,400,18.0,30.0,22.0,7.0,9.0,500,0,dinner,250,high,81.6
+Orange,fruit,62,1.2,15.4,0.2,3.1,12.0,0,0,snack,0,low,47.8
+Bagel (plain),grain,270,11.0,55.0,1.5,2.0,5.0,430,0,breakfast,250,medium,54.4
+Cream Cheese (2 tbsp),dairy,100,2.0,2.0,10.0,0.0,1.0,90,30,breakfast,0,medium,41.1
+Tuna Salad (1/2 cup),meal/fish,190,19.0,2.0,12.0,1.0,1.0,400,30,lunch,500,medium,65.0
+Crackers (5 whole wheat),grain/processed,90,2.0,14.0,3.0,2.0,0.0,180,0,lunch,0,low,49.8
+Beef Steak (6oz sirloin),protein/meat,270,42.0,0.0,10.0,0.0,0.0,90,115,dinner,250,medium,100.0
+Baked Potato (medium),vegetable,160,4.3,36.0,0.2,3.8,1.0,17,0,dinner,0,medium,63.8
+Ice Cream (1/2 cup vanilla),dairy/dessert,145,2.5,17.0,7.5,0.5,16.0,55,30,snack,0,medium,33.0
+Pizza (1 slice pepperoni),meal/processed,290,12.0,34.0,12.0,2.0,4.0,720,35,dinner,250,medium,48.5
+Avocado Toast (1 slice),meal/vegetarian,260,7.0,28.0,15.0,10.0,1.0,350,0,breakfast,500,medium,86.6
+Hard-Boiled Egg (1 large),protein,78,6.3,0.6,5.3,0.0,0.5,62,187,snack,0,low,40.7
+Chicken Wrap (with tortilla),meal/processed,410,25.0,38.0,17.0,5.0,3.0,780,60,lunch,250,high,79.5
+Grapes (1 cup),fruit,104,1.1,27.0,0.2,1.4,23.0,3,0,snack,0,medium,31.9
+Cottage Cheese (1/2 cup),dairy,90,12.0,5.0,3.0,0.0,4.0,400,10,snack,0,low,48.5
+Burger (cheeseburger),meal/processed,550,30.0,40.0,30.0,3.0,7.0,1100,90,dinner,500,very_high,67.1
+French Fries (medium),vegetable/processed,340,4.0,44.0,17.0,4.0,0.3,230,0,dinner,0,high,60.0
+Protein Bar,supplement/processed,210,20.0,22.0,7.0,6.0,1.0,180,5,snack,500,medium,93.7
+Black Beans (1/2 cup),legume,114,7.6,20.4,0.5,7.5,0.3,1,0,lunch,0,medium,85.4
+Salsa (1/4 cup),vegetable,20,0.8,4.5,0.1,1.0,3.0,250,0,lunch,0,low,39.9
+Chicken Noodle Soup (1 can),meal/processed,150,7.0,18.0,5.0,2.0,2.0,890,15,lunch,250,medium,39.5
+Peanut Butter (2 tbsp),nut,190,7.0,8.0,16.0,2.0,3.0,140,0,snack,0,medium,56.2
+Celery Sticks (1 cup),vegetable,14,0.6,3.0,0.2,1.4,1.2,77,0,snack,0,low,46.5
+Cod (4oz baked),protein/fish,95,20.0,0.0,0.8,0.0,0.0,95,55,dinner,250,low,68.6
+Green Beans (1 cup),vegetable,31,1.8,7.0,0.2,2.7,3.3,6,0,dinner,0,low,53.7
+Chocolate Chip Cookie (1 large),dessert,220,2.5,30.0,11.0,1.5,19.0,160,20,snack,0,medium,33.1
+Shrimp (3oz steamed),protein/fish,84,20.0,0.2,0.2,0.0,0.0,100,161,dinner,250,low,63.0
+Pancakes (2 medium),grain,180,5.0,30.0,5.0,1.0,6.0,450,25,breakfast,0,medium,38.3
+Maple Syrup (2 tbsp),condiment,104,0.0,27.0,0.0,0.0,24.0,2,0,breakfast,0,medium,23.5
+Sausage Link (1 cooked),protein/meat,85,5.0,1.0,7.0,0.0,0.5,300,20,breakfast,0,low,42.0
+Smoothie (Fruit & Yogurt),beverage/meal,280,12.0,55.0,3.0,7.0,40.0,70,5,breakfast,250,medium,57.3
+Tofu (4oz firm),protein/vegetarian,90,10.0,3.0,5.0,2.0,1.0,10,0,lunch,0,low,65.3
+Brown Rice (1 cup cooked),grain,215,5.0,45.0,1.8,3.5,0.4,10,0,lunch,0,medium,64.3
+Bell Pepper (1 medium red),vegetable,31,1.2,6.0,0.3,2.1,4.2,4,0,lunch,0,low,49.6
+Hummus (2 tbsp),legume,70,2.0,4.0,5.0,2.0,0.0,130,0,snack,0,low,50.9
+Pita Bread (1 whole wheat),grain,170,6.0,35.0,1.5,5.0,2.0,320,0,snack,0,medium,64.0
+Pork Chop (4oz grilled),protein/meat,220,30.0,0.0,10.0,0.0,0.0,70,85,dinner,250,medium,83.3
+Mashed Potatoes (1 cup),vegetable,230,4.0,35.0,8.0,3.0,2.0,350,15,dinner,0,medium,51.0
+Corn (1 cup),vegetable,132,4.7,30.0,1.8,3.6,8.9,2,0,dinner,0,medium,57.8
+Soda (1 can Coke),beverage,140,0.0,39.0,0.0,0.0,39.0,45,0,snack,355,medium,10.8
+Pretzels (1 oz),grain/processed,110,3.0,23.0,1.0,1.0,1.0,450,0,snack,0,medium,40.4
+Cheddar Cheese (1 oz),dairy,115,7.0,1.0,9.5,0.0,0.5,180,30,snack,0,medium,47.3
+Caesar Salad (with chicken),meal/protein,470,30.0,15.0,30.0,3.0,3.0,890,75,lunch,250,high,75.7
+Orange Juice (1 cup),beverage,112,1.7,25.8,0.5,0.7,20.8,2,0,breakfast,240,medium,31.6
+Bacon (2 slices cooked),protein/meat,86,6.0,0.2,6.8,0.0,0.1,330,18,breakfast,0,low,43.3
+Waffles (2 homemade),grain,220,6.0,28.0,9.0,1.5,3.0,420,45,breakfast,0,medium,43.9
+Pear,fruit,101,0.6,27.0,0.2,5.5,16.0,2,0,snack,0,medium,53.8
+Chicken Breast (4oz roasted),protein/meat,185,35.0,0.0,4.0,0.0,0.0,80,95,lunch,500,medium,90.3
+Mixed Nuts (1/4 cup),nut,200,6.0,8.0,18.0,3.0,2.0,1,0,snack,0,medium,62.7
+Tilapia (4oz baked),protein/fish,110,22.0,0.0,2.5,0.0,0.0,50,50,dinner,0,medium,73.0
+Asparagus (1 cup steamed),vegetable,40,4.3,7.4,0.4,3.6,3.5,4,0,dinner,0,low,61.3
+Sweet Potato (1 medium baked),vegetable,103,2.3,23.6,0.2,3.8,7.4,41,0,dinner,0,medium,55.1
+Popcorn (3 cups air-popped),grain,93,3.0,18.6,1.1,3.6,0.1,2,0,snack,250,low,62.0
+Raisins (1/4 cup),fruit,130,1.3,34.0,0.2,1.6,25.0,5,0,snack,0,medium,31.4
+Macaroni & Cheese (1 cup),meal/pasta,350,10.0,40.0,17.0,2.0,5.0,750,40,lunch,250,high,43.6
+Tomato Soup (1 can),meal/vegetable,170,4.0,25.0,6.0,4.0,15.0,900,10,lunch,0,medium,33.0
+Grilled Cheese Sandwich,meal/processed,390,15.0,32.0,22.0,3.0,4.0,800,60,lunch,0,high,54.3
+Beef Tacos (2 hard shell),meal/meat,380,18.0,28.0,22.0,5.0,3.0,600,50,dinner,500,high,73.1
+Refried Beans (1/2 cup),legume,115,7.0,19.0,1.0,6.0,1.0,480,0,dinner,0,medium,66.9
+Guacamole (1/4 cup),vegetable/condiment,90,1.0,4.0,8.0,3.0,0.5,120,0,dinner,0,low,53.4
+Watermelon (1 cup diced),fruit,46,0.9,11.5,0.2,0.6,9.4,2,0,snack,0,low,38.9
+English Muffin (whole wheat),grain,134,6.0,26.0,1.0,4.4,1.0,210,0,breakfast,250,medium,64.7
+Peanut Butter & Jelly Sandwich,meal/processed,390,12.0,50.0,17.0,5.0,20.0,450,0,lunch,250,high,56.4
+Clam Chowder (1 cup),meal/seafood,200,10.0,18.0,9.0,1.0,2.0,870,30,lunch,0,medium,39.7
+Iced Tea (Sweetened 16oz),beverage,180,0.0,46.0,0.0,0.0,46.0,15,0,snack,500,medium,6.0
+Lasagna (1 serving meat),meal/pasta,350,20.0,30.0,17.0,4.0,7.0,850,55,dinner,250,high,63.1
+Garlic Bread (1 slice),grain,150,4.0,18.0,7.0,1.0,1.0,310,0,dinner,0,medium,45.1
+Chocolate Milk (1 cup),beverage/dairy,200,8.0,26.0,8.0,1.0,24.0,160,30,snack,0,medium,35.1
+White Bread (1 slice),grain,70,2.0,13.0,1.0,0.6,1.2,140,0,breakfast,0,low,43.9
+Jelly (1 tbsp grape),condiment,50,0.0,13.0,0.0,0.1,12.0,5,0,breakfast,0,low,33.3
+Veggie Burger (1 patty),protein/vegetarian,120,11.0,10.0,4.0,5.0,1.0,350,0,lunch,250,medium,71.9
+Bun (hamburger),grain,140,4.0,26.0,2.0,1.0,4.0,260,0,lunch,0,medium,43.9
+Ketchup (1 tbsp),condiment,20,0.2,5.0,0.1,0.2,4.0,160,0,lunch,0,low,36.8
+Muffin (Blueberry 1 large),grain/dessert,380,5.0,55.0,16.0,2.0,30.0,350,50,breakfast,250,high,24.7
+Coffee (with cream/sugar),beverage,50,0.5,5.0,3.0,0.0,4.5,10,10,breakfast,250,low,38.9
+Potato Chips (1 oz),snack/processed,160,2.0,15.0,10.0,1.0,0.5,170,0,snack,0,medium,45.5
+Tzatziki Sauce (2 tbsp),condiment/dairy,30,1.5,2.0,2.0,0.0,1.5,100,5,dinner,0,low,41.0
+Scallops (3oz seared),protein/seafood,95,17.0,5.0,1.0,0.0,0.0,180,35,dinner,0,low,63.1
+Risotto (Mushroom 1 cup),meal/grain,250,7.0,35.0,9.0,3.0,3.0,600,20,dinner,0,medium,49.1
+Caprese Salad,meal/vegetable,240,10.0,8.0,18.0,2.0,5.0,350,40,lunch,250,medium,52.6
+Balsamic Vinaigrette (2 tbsp),condiment,90,0.0,3.0,9.0,0.0,2.5,300,0,lunch,0,low,33.7
+Cherries (1 cup),fruit,77,1.6,19.0,0.5,2.5,15.0,0,0,snack,0,low,43.6
+Turkey Bacon (2 slices),protein/meat,70,6.0,1.0,5.0,0.0,0.5,360,30,breakfast,0,low,41.7
+Grits (1 cup cooked),grain,150,3.0,32.0,1.0,2.0,0.5,320,0,breakfast,0,medium,47.9
+Butter (1 tbsp),condiment/dairy,100,0.1,0.0,11.0,0.0,0.0,82,30,breakfast,0,medium,39.1
+Meatball Sub (6 inch),meal/processed,580,28.0,55.0,27.0,6.0,10.0,1200,70,lunch,500,very_high,73.1
+Kiwifruit (1 medium),fruit,46,0.9,11.1,0.4,2.3,6.7,2,0,snack,0,low,48.1
+Beef Jerky (1 oz),snack/processed,116,9.4,3.1,7.2,0.5,2.5,590,30,snack,0,medium,42.5
+Figs (2 medium),fruit,74,0.6,19.2,0.3,2.9,16.2,2,0,snack,0,low,42.7
+Lobster (3oz steamed),protein/seafood,76,16.0,0.0,0.7,0.0,0.0,250,125,dinner,250,low,55.3
+Melted Butter (for lobster),condiment,200,0.2,0.0,22.0,0.0,0.0,164,60,dinner,0,medium,35.9
+Corn on the Cob (1 large),vegetable,125,5.0,29.0,1.5,3.0,5.0,2,0,dinner,0,medium,58.7
+Vegetable Soup (1 can),meal/vegetable,140,4.0,22.0,4.0,6.0,8.0,780,5,lunch,250,medium,49.8
+Saltine Crackers (5 crackers),grain/processed,60,1.0,10.0,1.5,0.5,0.0,140,0,lunch,0,low,42.9
+Mango (1 cup slices),fruit,99,1.4,24.7,0.6,2.6,22.5,2,0,snack,0,low,37.8
+Cheesecake (1 slice),dessert,320,5.0,28.0,21.0,1.0,20.0,280,65,snack,250,high,29.1
+Pad Thai (Chicken 1.5 cups),meal/pasta,550,25.0,60.0,22.0,5.0,10.0,950,70,dinner,500,very_high,69.7
+Spring Roll (Veg 2 rolls),snack/processed,180,4.0,25.0,7.0,3.0,3.0,450,0,dinner,0,medium,48.8
+Coconut Water (1 cup),beverage,46,1.7,8.9,0.5,2.6,6.3,252,0,snack,240,low,45.3
+Kimchi (1/2 cup),vegetable,22,1.7,4.0,0.4,2.4,1.5,750,0,side,0,low,37.2
+Sashimi (Salmon 3 pcs),protein/fish,120,18.0,0.0,5.0,0.0,0.0,45,40,lunch,0,medium,67.4
+Wasabi (1 tsp),condiment,10,0.1,2.2,0.1,0.3,1.0,40,0,lunch,0,low,42.1
+Seaweed Salad (1/2 cup),vegetable,60,2.0,8.0,3.0,2.0,4.0,350,0,lunch,0,low,42.9
+French Onion Soup (1 cup),meal,150,6.0,15.0,7.0,2.0,5.0,800,20,lunch,250,medium,37.3
+Croutons (1/4 cup),grain,50,1.5,7.0,2.0,0.5,0.5,140,0,lunch,0,low,43.3
+Shepherd's Pie (1 serving),meal/meat,400,20.0,35.0,20.0,6.0,7.0,850,55,dinner,250,high,71.5
+Green Peas (1/2 cup),legume,62,4.1,11.1,0.2,4.4,4.2,2,0,dinner,0,low,63.8
+Apple Pie (1 slice),dessert,410,3.0,58.0,19.0,3.0,25.0,320,0,snack,0,high,32.9
+Gin & Tonic (1 drink),beverage,170,0.0,13.0,0.0,0.0,13.0,2,0,snack,180,medium,32.1
+Red Wine (5 oz glass),beverage,125,0.1,3.8,0.0,0.0,0.9,6,0,dinner,0,medium,41.7
+Halibut (4oz baked),protein/fish,125,24.0,0.0,2.5,0.0,0.0,60,40,dinner,250,medium,76.4
+Quinoa Salad (1 cup),meal/vegetarian,260,9.0,32.0,12.0,6.0,4.0,300,0,lunch,250,medium,71.7
+Lemonade (1 cup),beverage,99,0.1,26.0,0.0,0.1,25.0,30,0,snack,240,low,22.7
+Pistachios (1 oz shelled),nut,159,5.7,7.7,12.8,3.0,2.2,2,0,snack,0,medium,62.0
+Oat Milk (1 cup),beverage/dairy-alt,120,3.0,16.0,5.0,2.0,7.0,100,0,breakfast,0,medium,47.7
+Biscuits and Gravy (1 serving),meal/processed,480,10.0,45.0,28.0,2.0,3.0,1100,35,breakfast,250,high,37.7
+Avocado (1/2 fruit),fruit,160,2.0,8.5,14.7,6.7,0.7,7,0,breakfast,0,medium,72.8
+Corn Flakes (1 cup),grain,100,2.0,24.0,0.0,1.0,3.0,200,0,breakfast,0,medium,42.8
+T-Bone Steak (6oz),protein/meat,460,38.0,0.0,33.0,0.0,0.0,110,105,dinner,0,high,93.8
+Creamed Spinach (1/2 cup),vegetable,190,5.0,8.0,16.0,3.0,2.0,450,50,dinner,0,medium,48.5
+Pecans (1 oz),nut,196,2.6,3.9,20.4,2.7,1.1,0,0,snack,0,medium,56.8
+Fruit Cocktail (canned 1 cup),fruit,110,1.0,28.0,0.0,2.0,26.0,10,0,snack,0,medium,31.7
+Ramen (Instant 1 pack),meal/processed,380,9.0,53.0,14.0,2.0,2.0,1580,0,lunch,500,high,28.0
+Mocha Latte (16oz),beverage,360,12.0,48.0,15.0,2.0,42.0,150,45,snack,473,high,31.0
+Cucumber Slices (1 cup),vegetable,16,0.7,3.6,0.1,0.5,1.7,2,0,snack,0,low,44.1
+Feta Cheese (1 oz),dairy,75,4.0,1.2,6.1,0.0,0.7,316,25,lunch,0,low,39.7
+Olives (Kalamata 5 large),fruit,35,0.2,1.0,3.5,0.5,0.0,210,0,lunch,0,low,40.1
+Chicken Alfredo (1.5 cups),meal/pasta,680,35.0,45.0,38.0,4.0,5.0,980,120,dinner,250,very_high,81.8
+Breadstick (1 large),grain,160,4.0,28.0,3.0,1.0,2.0,350,0,dinner,0,medium,43.4
+Cobb Salad,meal/protein,510,30.0,12.0,38.0,7.0,6.0,800,210,lunch,500,very_high,85.1
+Blue Cheese Dressing (2 tbsp),condiment,150,1.0,2.0,16.0,0.0,1.0,320,10,lunch,0,medium,35.5
+Mandarin Orange (1 medium),fruit,37,0.6,9.3,0.2,1.3,7.3,1,0,snack,0,low,43.0
+Cashews (1 oz roasted),nut,163,4.3,9.2,13.1,0.9,1.4,140,0,snack,0,medium,48.6
+Eggo Waffle (2 waffles),grain/processed,180,4.0,30.0,5.0,1.0,4.0,400,0,breakfast,0,medium,40.7
+Pulled Pork Sandwich,meal/meat,480,25.0,48.0,20.0,3.0,15.0,900,75,lunch,250,high,58.3
+Macadamia Nuts (1 oz),nut,204,2.2,3.9,21.5,2.4,1.3,1,0,snack,0,medium,54.8
+Crab Cakes (2 medium),meal/seafood,340,20.0,18.0,20.0,1.0,2.0,700,120,dinner,250,high,54.4
+Tartar Sauce (2 tbsp),condiment,60,0.2,2.0,5.5,0.1,1.5,180,5,dinner,0,low,37.6
+Lemon Bar (1 square),dessert,150,1.5,22.0,6.0,0.5,15.0,80,30,snack,0,medium,31.7
+Almond Milk (Unsweetened 1 cup),beverage/dairy-alt,30,1.0,1.0,2.5,1.0,0.0,160,0,breakfast,240,low,44.5
+Rice Krispies (1.5 cups),grain,160,3.0,37.0,0.5,0.5,4.0,290,0,breakfast,0,medium,39.5
+Sugar (1 tsp for cereal),condiment,16,0.0,4.0,0.0,0.0,4.0,0,0,breakfast,0,low,39.2
+Tuna (Canned 3oz in water),protein/fish,90,20.0,0.0,1.0,0.0,0.0,250,35,lunch,0,low,66.2
+Mayonnaise (1 tbsp),condiment,90,0.1,0.1,10.0,0.0,0.1,70,5,lunch,0,low,40.6
+Pickle (1 spear dill),vegetable,5,0.2,1.0,0.1,0.3,0.5,300,0,lunch,0,low,36.8
+Lobster Bisque (1 cup),meal/seafood,250,8.0,12.0,18.0,1.0,3.0,850,50,lunch,250,medium,35.2
+Reuben Sandwich,meal/processed,650,28.0,35.0,40.0,5.0,6.0,1500,100,lunch,500,very_high,63.7
+Sauerkraut (1/4 cup side),vegetable,7,0.3,1.5,0.0,1.0,0.6,234,0,lunch,0,low,41.3
+Mushroom (White 1 cup sliced),vegetable,15,2.2,2.3,0.2,0.7,1.4,4,0,dinner,0,low,47.5
+Soy Milk (Original 1 cup),beverage/dairy-alt,110,8.0,9.0,4.5,2.0,6.0,125,0,breakfast,240,medium,55.7
+Chicken Tikka Masala (1.5 cups),meal/meat,480,30.0,20.0,30.0,5.0,8.0,900,95,dinner,250,high,78.9
+Naan Bread (1 piece),grain,260,8.0,45.0,5.0,2.0,3.0,450,10,dinner,0,medium,50.3
+Cucumber Salad (1/2 cup),vegetable,40,1.0,5.0,2.0,1.0,4.0,200,0,dinner,0,low,40.5
+Vodka Soda (1 drink),beverage,100,0.0,0.0,0.0,0.0,0.0,5,0,snack,180,medium,42.2
+Chocolate Croissant,dessert,350,6.0,40.0,19.0,3.0,15.0,300,40,breakfast,250,high,43.8
+Sweet & Sour Chicken (1 cup),meal/processed,380,18.0,45.0,15.0,3.0,25.0,750,50,dinner,0,high,44.2
+Egg Drop Soup (1 cup),meal/vegetable,65,5.0,6.0,2.0,0.5,1.0,780,50,dinner,0,low,31.5
+String Cheese (1 stick),dairy,80,6.0,1.0,6.0,0.0,0.0,210,20,snack,0,low,46.0
+Turkey Burger (1 patty),protein/meat,160,22.0,2.0,8.0,0.0,1.0,400,70,lunch,250,medium,63.4
+Potato Salad (1/2 cup),meal/vegetable,180,2.0,19.0,11.0,2.0,3.0,500,10,lunch,0,medium,39.8
+Cranberry Juice (1 cup),beverage,130,0.0,33.0,0.0,0.0,30.0,10,0,breakfast,240,medium,18.7
+Chicken Piccata (1 serving),meal/meat,350,30.0,10.0,20.0,1.0,2.0,600,90,dinner,250,high,73.8
+Angel Hair Pasta (1 cup),grain,200,7.0,42.0,1.0,2.0,1.0,1,0,dinner,0,medium,60.9
+Olive Oil (1 tbsp),condiment,120,0.0,0.0,14.0,0.0,0.0,0,0,dinner,0,medium,42.3
+Garlic (1 clove),vegetable,4,0.2,0.9,0.0,0.1,0.0,1,0,dinner,0,low,43.0
+Salami (3 slices),protein/processed,110,6.0,1.0,9.0,0.0,0.5,500,30,snack,0,medium,38.6
+Provolone Cheese (1 slice),dairy,100,7.0,1.0,8.0,0.0,0.5,250,20,snack,0,medium,46.3
+Ginger Ale (1 can),beverage,124,0.0,32.0,0.0,0.0,31.0,40,0,snack,355,medium,17.2
+Shrimp Scampi (1 cup),meal/seafood,380,22.0,40.0,15.0,3.0,3.0,750,140,dinner,0,high,62.9
+Tiramisu (1 slice),dessert,450,7.0,42.0,28.0,2.0,25.0,150,180,snack,250,high,29.4
+Cereal Bar (Fruit),snack/processed,140,2.0,30.0,3.0,1.0,15.0,110,0,breakfast,250,medium,35.5
+Veal Parmesan (1 serving),meal/meat,550,40.0,30.0,30.0,4.0,7.0,1100,130,dinner,250,very_high,84.9
+Spaghetti (side),grain,100,3.5,21.0,0.5,1.0,0.5,0,0,dinner,0,medium,51.6
+Hot Chocolate (1 cup),beverage,200,3.0,30.0,8.0,2.0,25.0,160,10,snack,240,medium,31.8
+Coconut Shrimp (5 pcs),meal/seafood,320,10.0,25.0,20.0,3.0,8.0,600,80,dinner,0,high,46.7
+Sweet Chili Sauce (2 tbsp),condiment,70,0.0,17.0,0.0,0.5,16.0,450,0,dinner,0,low,21.9
+White Wine (5 oz glass),beverage,121,0.1,3.8,0.0,0.0,1.4,5,0,dinner,0,medium,41.3
+Trail Mix (1/4 cup),snack/processed,190,5.0,20.0,12.0,3.0,14.0,50,0,snack,250,medium,50.7
+Onion Rings (6 rings),snack/processed,280,4.0,30.0,16.0,3.0,4.0,500,0,snack,0,medium,46.9
+Poached Egg (1 large),protein,72,6.3,0.4,4.8,0.0,0.4,140,185,breakfast,0,low,39.1
+Canadian Bacon (2 slices),protein/meat,80,12.0,1.0,3.0,0.0,1.0,650,40,breakfast,0,low,43.8
+Eggs Benedict (1 serving),meal/protein,600,25.0,30.0,40.0,3.0,4.0,1100,450,breakfast,250,very_high,42.9
+Hollandaise Sauce (2 tbsp),condiment,110,1.0,0.5,12.0,0.0,0.2,150,50,breakfast,0,medium,37.8
+Spinach Artichoke Dip (1/4 cup),snack/processed,160,5.0,6.0,14.0,2.0,2.0,350,30,snack,0,medium,47.6
+Tortilla Chips (1 oz),snack/processed,140,2.0,19.0,7.0,2.0,0.5,120,0,snack,0,medium,50.8
+Chicken Kebab (2 skewers),meal/meat,280,30.0,8.0,14.0,3.0,4.0,500,85,dinner,250,medium,83.1
+Bell Peppers & Onions (sautéed),vegetable,60,1.5,10.0,2.0,3.0,6.0,30,0,dinner,0,low,51.9
+Hummus Wrap (large),meal/vegetarian,450,15.0,60.0,18.0,12.0,5.0,800,0,lunch,500,high,94.3
+Kombucha (1 cup),beverage,30,0.0,7.0,0.0,0.0,6.0,10,0,snack,240,low,37.4
+Beef Stroganoff (1.5 cups),meal/pasta,550,30.0,40.0,28.0,4.0,6.0,900,100,dinner,0,very_high,76.1
+Egg Noodles (1 cup cooked),grain,220,8.0,40.0,3.0,2.0,2.0,20,50,dinner,0,medium,58.6
+Cottage Cheese (1 cup low fat),dairy,160,28.0,6.0,2.5,0.0,4.0,820,10,lunch,250,medium,64.2
+Tomato (1 medium sliced),vegetable,22,1.1,4.8,0.2,1.5,3.2,6,0,lunch,0,low,47.7
+Black Pepper (1 tsp),condiment,6,0.2,1.5,0.1,0.6,0.0,0,0,lunch,0,low,45.1
+Chocolate Pudding (1/2 cup),dessert,150,2.0,28.0,4.0,2.0,22.0,130,2,snack,0,medium,33.6
+Mackerel (3oz cooked),protein/fish,175,16.0,0.0,12.0,0.0,0.0,75,65,dinner,0,medium,62.3
+Collard Greens (1 cup cooked),vegetable,60,5.0,10.0,1.0,7.0,1.0,40,0,dinner,0,low,77.8
+Ham (3oz deli sliced),protein/meat,110,16.0,2.0,4.0,0.0,1.5,950,45,lunch,0,medium,42.7
+Swiss Cheese (1 slice),dairy,106,7.6,1.0,8.0,0.0,0.4,54,26,lunch,0,medium,51.3
+Rye Bread (1 slice),grain,83,2.7,15.5,1.1,1.9,1.2,170,0,lunch,0,low,49.8
+Potato Leek Soup (1 cup),meal/vegetable,180,4.0,25.0,7.0,3.0,4.0,650,15,lunch,250,medium,42.8
+Brie Cheese (1 oz),dairy,95,6.0,0.1,7.9,0.0,0.1,178,28,snack,0,low,46.2
+Water Cracker (5 crackers),grain/processed,70,1.5,12.0,1.5,0.5,0.0,150,0,snack,0,low,43.4
+Grapefruit (1/2 medium),fruit,52,1.1,13.2,0.2,2.0,8.5,0,0,breakfast,0,low,45.8
+Veggie Straws (1 oz),snack/processed,130,1.0,17.0,7.0,1.0,1.0,220,0,snack,0,medium,42.4
+Fish Tacos (2 tacos),meal/fish,420,25.0,40.0,18.0,6.0,5.0,700,60,dinner,500,high,83.9
+Cabbage Slaw (side),vegetable,60,1.0,8.0,3.0,2.0,5.0,120,5,dinner,0,low,45.4
+Lime (juice of 1),condiment,11,0.2,3.7,0.0,0.4,0.7,1,0,dinner,0,low,43.7
+Beer (12 oz light),beverage,103,0.9,5.8,0.0,0.0,0.3,10,0,snack,355,medium,43.3
+Danish (Cheese 1 medium),dessert,340,7.0,38.0,18.0,2.0,16.0,300,55,breakfast,250,high,39.6
+Kefir (Plain 1 cup),beverage/dairy,104,10.0,10.0,2.5,0.0,9.0,100,10,breakfast,240,medium,48.2
+Gnocchi (1 cup),meal/pasta,210,4.5,45.0,1.5,3.0,2.0,480,0,dinner,0,medium,49.7
+Pesto Sauce (1/4 cup),condiment,260,5.0,4.0,26.0,2.0,1.0,550,5,dinner,0,medium,45.2
+Pine Nuts (1 tbsp),nut,95,2.0,2.0,10.0,0.5,0.5,0,0,dinner,0,low,47.2
+Chai Latte (12 oz),beverage,190,7.0,32.0,4.0,1.0,30.0,105,15,snack,355,medium,30.9
+Manicotti (2 shells cheese),meal/pasta,380,20.0,35.0,18.0,4.0,7.0,650,60,dinner,0,high,67.3
+Italian Sausage (1 link),protein/meat,200,12.0,3.0,16.0,0.0,1.0,550,50,dinner,0,medium,45.5
+Jicama (1 cup sticks),vegetable,46,0.9,10.6,0.1,5.8,2.1,5,0,snack,0,low,66.3
+Chili Powder (1 tsp),condiment,8,0.3,1.4,0.4,0.9,0.2,10,0,snack,0,low,46.2
+Ants on a Log (4 pcs),snack,180,6.0,12.0,12.0,3.0,7.0,120,0,snack,250,medium,56.1
+Split Pea Soup (1 cup),meal/legume,180,11.0,30.0,2.0,10.0,6.0,700,5,lunch,250,medium,80.9
+Ham & Cheese Croissant,meal/processed,400,15.0,35.0,22.0,2.0,6.0,750,60,breakfast,250,high,49.6
+Espresso (double shot),beverage,5,0.5,0.0,0.1,0.0,0.0,1,0,breakfast,60,low,43.1
+Ricotta Cheese (1/4 cup),dairy,85,5.5,2.5,6.0,0.0,1.0,50,24,dinner,0,low,47.8
+Chicken & Rice Soup (1 can),meal/processed,130,7.0,18.0,3.0,2.0,2.0,850,15,lunch,250,medium,40.4
+Guava,fruit,68,2.6,14.3,0.9,5.4,8.9,3,0,snack,0,low,62.0
+Club Sandwich,meal/processed,580,35.0,40.0,30.0,5.0,7.0,1300,95,lunch,500,very_high,78.6
+Pickle (1 whole dill),vegetable,17,0.8,3.7,0.2,1.5,1.7,1200,0,snack,0,low,21.8
+Turkey Chili (1 cup),meal/meat,250,22.0,25.0,7.0,8.0,6.0,750,50,dinner,250,medium,86.2
+Sour Cream (2 tbsp),condiment/dairy,60,0.8,1.3,5.8,0.0,0.8,25,12,dinner,0,low,41.8
+Shredded Cheese (Cheddar 1/4 cup),dairy,115,7.0,1.0,9.5,0.0,0.5,180,30,dinner,0,medium,47.3
+Matcha Latte (12 oz),beverage,180,6.0,28.0,5.0,2.0,25.0,90,20,snack,355,medium,37.5
+Chocolate Donut (1 medium),dessert,300,4.0,35.0,17.0,2.0,18.0,230,20,breakfast,0,high,36.7
+Tuna Melt,meal/processed,450,25.0,32.0,25.0,3.0,4.0,900,50,lunch,250,high,68.2
+Apple Cider (1 cup),beverage,117,0.1,29.0,0.3,0.5,27.0,10,0,snack,240,medium,23.2
+Beef Burrito (large),meal/processed,650,30.0,70.0,28.0,10.0,5.0,1400,70,dinner,500,very_high,92.4
+Pico de Gallo (1/4 cup),condiment,15,0.5,3.0,0.0,1.0,2.0,200,0,dinner,0,low,41.3
+Corn Tortilla (1 medium),grain,52,1.4,11.2,0.7,1.5,0.2,4,0,dinner,0,low,50.6
+Mussels (3oz steamed),protein/seafood,146,20.0,6.0,4.0,0.0,0.0,310,48,dinner,0,medium,64.2
+White Wine Sauce (1/4 cup),condiment,80,1.0,4.0,6.0,0.5,2.0,300,5,dinner,0,low,37.5
+French Bread (2 slices),grain,180,6.0,36.0,1.0,2.0,2.0,380,0,dinner,0,medium,50.1
+Blackberries (1 cup),fruit,62,2.0,13.8,0.7,7.6,4.9,1,0,snack,0,low,73.4
+Cheese Danish,dessert,340,7.0,38.0,18.0,2.0,16.0,300,55,breakfast,250,high,39.6
+Chicken Salad Sandwich,meal/processed,420,20.0,35.0,20.0,3.0,5.0,850,60,lunch,250,high,60.2
+Soyrizo (2 oz),protein/vegetarian,140,10.0,6.0,9.0,3.0,2.0,450,0,breakfast,0,medium,58.9
+Hash Browns (1 cup),vegetable,330,3.0,38.0,19.0,3.0,1.0,550,0,breakfast,0,high,46.6
+Ketchup (1 packet),condiment,10,0.1,2.5,0.0,0.1,2.0,90,0,breakfast,0,low,39.3
+Philly Cheesesteak (6 inch),meal/processed,500,25.0,40.0,28.0,3.0,5.0,1100,70,lunch,500,very_high,61.9
+Cheese Whiz (2 tbsp),condiment/processed,90,4.0,3.0,7.0,0.0,2.0,540,20,lunch,0,low,34.0
+Onions (sautéed 1/4 cup),vegetable,30,0.5,5.0,1.0,1.0,3.0,5,0,lunch,0,low,44.8
+Raspberries (1 cup),fruit,64,1.5,14.7,0.8,8.0,5.4,1,0,snack,0,low,73.9
+Cheesy Grits (1 cup),meal/grain,210,6.0,34.0,6.0,2.0,1.0,550,20,breakfast,0,medium,46.0
+Collard Greens (with ham hock),vegetable,180,10.0,15.0,9.0,8.0,3.0,600,30,dinner,0,medium,74.2
+Fried Okra (1 cup),vegetable,220,4.0,25.0,12.0,5.0,3.0,450,10,dinner,0,medium,56.6
+Sweet Tea (16 oz),beverage,180,0.0,46.0,0.0,0.0,46.0,15,0,lunch,473,medium,6.0
+Gyro (1 sandwich),meal/meat,600,25.0,55.0,30.0,5.0,6.0,1200,80,dinner,250,very_high,66.8
+Pita Bread (White 1 large),grain,220,7.0,45.0,2.0,2.0,2.0,440,0,dinner,0,medium,50.3
+Baklava (1 piece),dessert,280,3.0,30.0,18.0,2.0,20.0,80,10,snack,0,medium,37.5
+Coconut (shredded 1/4 cup),fruit,110,1.0,4.5,10.5,2.0,1.5,3,0,snack,0,medium,51.0
+S'more (1 serving),dessert,140,2.0,25.0,4.0,1.0,15.0,90,0,snack,0,medium,35.9
+Graham Cracker (1 large rectangle),grain/processed,60,1.0,11.0,1.5,0.5,4.0,70,0,snack,0,low,41.3
+Marshmallow (1 large),dessert,23,0.1,5.8,0.0,0.0,4.0,5,0,snack,0,low,39.3
+Chocolate (Hershey's bar 1 segment),dessert,25,0.3,3.0,1.5,0.2,2.8,4,1,snack,0,low,41.3
+Chicken Parm Sandwich,meal/processed,650,40.0,55.0,30.0,6.0,9.0,1400,100,lunch,500,very_high,86.6
+Mozzarella (1 slice),dairy,80,6.0,1.0,6.0,0.0,0.5,150,20,lunch,0,low,46.9
+Bread Roll (hoagie),grain,200,6.0,38.0,2.0,2.0,3.0,400,0,lunch,0,medium,48.8
+Artichoke (1 medium steamed),vegetable,60,4.2,13.4,0.2,6.9,1.2,112,0,dinner,0,low,74.4
+Mayonnaise (1 tbsp for dipping),condiment,90,0.1,0.1,10.0,0.0,0.1,70,5,dinner,0,low,40.6
+Calamari (fried 3oz),meal/seafood,150,13.0,8.0,7.0,1.0,1.0,600,220,dinner,0,medium,41.2
+Lemon Wedge (for calamari),condiment,3,0.1,1.0,0.0,0.3,0.2,0,0,dinner,0,low,43.6
+Root Beer (1 can),beverage,150,0.0,40.0,0.0,0.0,40.0,55,0,snack,355,medium,9.8
+Chicken McNuggets (6 pcs),meal/processed,270,15.0,16.0,16.0,1.0,0.0,500,40,lunch,0,medium,56.8
+BBQ Sauce (2 tbsp),condiment,60,0.5,15.0,0.0,0.5,12.0,350,0,lunch,0,low,28.0
+Honey (1 tbsp),condiment,64,0.1,17.3,0.0,0.0,17.2,1,0,breakfast,0,low,29.0
+Tofu Scramble,meal/vegetarian,250,20.0,8.0,16.0,4.0,3.0,300,0,breakfast,250,medium,81.3
+Turmeric (1 tsp),condiment,9,0.3,1.9,0.1,0.7,0.1,1,0,breakfast,0,low,45.6
+Nutritional Yeast (1 tbsp),condiment,20,3.0,2.0,0.0,1.0,0.0,10,0,breakfast,0,low,51.0
+Seitan (3oz),protein/vegetarian,90,18.0,4.0,1.0,1.0,1.0,300,0,dinner,0,low,67.2
+Vegetable Broth (1 cup),beverage,15,1.0,3.0,0.0,1.0,2.0,550,0,dinner,240,low,34.3
+Mashed Cauliflower (1 cup),vegetable,140,5.0,12.0,8.0,5.0,4.0,400,25,dinner,0,medium,57.8
+Peanut Sauce (2 tbsp),condiment,80,2.0,4.0,6.0,1.0,3.0,250,0,dinner,0,low,41.7
+Tempeh (3oz),protein/vegetarian,160,16.0,8.0,9.0,5.0,0.0,10,0,lunch,0,medium,88.1
+Sauerkraut (1/2 cup),vegetable,14,0.7,3.1,0.1,2.0,1.2,468,0,lunch,0,low,40.5
+Rye Crispbread (2 slices),grain,70,2.0,14.0,0.5,3.0,0.0,120,0,lunch,0,low,55.3
+Capers (1 tbsp),condiment,2,0.2,0.4,0.1,0.3,0.1,200,0,dinner,0,low,39.4
+Chicken Liver (2 oz cooked),protein/meat,91,13.6,0.6,3.6,0.0,0.0,50,320,dinner,0,low,45.8
+Onion (1/2 cup raw chopped),vegetable,32,0.9,7.5,0.1,1.4,3.8,3,0,dinner,0,low,46.6
+Bok Choy (1 cup steamed),vegetable,10,1.5,2.0,0.1,1.0,1.0,40,0,dinner,0,low,47.2
+Gummy Bears (10 pcs),snack/dessert,100,2.0,22.0,0.0,0.0,15.0,10,0,snack,0,medium,33.5
+Whiskey (1.5 oz shot),beverage,105,0.0,0.1,0.0,0.0,0.1,1,0,snack,0,medium,42.2
+Dates (2 medium Medjool),fruit,133,0.8,36.0,0.1,3.2,32.0,1,0,snack,0,medium,31.9
+Tahini (1 tbsp),condiment,89,2.6,3.2,8.0,1.4,0.1,17,0,snack,0,low,51.8
+Chickpeas (1/2 cup canned),legume,135,7.0,22.0,2.0,6.0,3.0,250,0,lunch,0,medium,70.5
+Lettuce (Romaine 2 cups),vegetable,16,1.0,3.0,0.3,2.0,1.0,10,0,lunch,0,low,51.3
+Italian Dressing (2 tbsp),condiment,70,0.0,3.0,7.0,0.0,2.0,300,0,lunch,0,low,34.1
+Turkey Sausage (1 patty),protein/meat,70,9.0,1.0,4.0,0.0,0.5,280,35,breakfast,0,low,48.0
+Maple Syrup (1 tbsp),condiment,52,0.0,13.5,0.0,0.0,12.0,1,0,breakfast,0,low,32.9
+Quesadilla (Cheese 1 medium),meal/processed,400,18.0,35.0,22.0,3.0,2.0,700,50,lunch,250,high,63.3
+Sour Cream (1 tbsp),condiment/dairy,30,0.4,0.6,2.9,0.0,0.4,12,6,lunch,0,low,42.1
+Salsa (2 tbsp),condiment,10,0.5,2.0,0.0,0.5,1.0,120,0,lunch,0,low,41.7
+Red Cabbage (1 cup raw),vegetable,22,1.1,5.2,0.1,1.6,2.8,8,0,dinner,0,low,48.4
+Duck (3oz roasted),protein/meat,285,16.0,0.0,24.0,0.0,0.0,65,72,dinner,0,medium,62.1
+Orange Sauce (1/4 cup for duck),condiment,90,0.5,22.0,0.0,0.5,20.0,200,0,dinner,0,low,25.1
+Wild Rice (1 cup cooked),grain,166,6.5,35.0,0.6,3.0,1.2,5,0,dinner,0,medium,64.0
+Cupcake (Vanilla 1 medium),dessert,240,2.0,35.0,11.0,1.0,25.0,200,30,snack,0,medium,24.1
+Frosting (Vanilla 2 tbsp),condiment,140,0.0,22.0,6.0,0.0,22.0,65,0,snack,0,medium,23.7
+Bison Burger (1 patty),protein/meat,150,22.0,0.0,7.0,0.0,0.0,65,70,lunch,250,medium,71.6
+Pretzel Bun (1 medium),grain,230,8.0,45.0,2.0,2.0,4.0,550,0,lunch,0,medium,47.8
+Spicy Mustard (1 tbsp),condiment,10,0.5,1.0,0.5,0.5,0.0,120,0,lunch,0,low,42.5
+Pasta Salad (1 cup),meal/pasta,280,8.0,30.0,14.0,4.0,5.0,450,10,lunch,0,medium,57.2
+Pepperoncini (2 peppers),vegetable,10,0.5,2.0,0.0,1.0,1.0,350,0,lunch,0,low,38.7
+Coconut Milk (1/4 cup canned),condiment,111,1.1,2.9,11.6,0.5,1.5,8,0,dinner,0,medium,44.8
+Green Curry Paste (1 tbsp),condiment,30,0.5,2.0,2.5,1.0,1.0,400,0,dinner,0,low,37.6
+Chicken Thigh (1 roasted),protein/meat,210,24.0,0.0,13.0,0.0,0.0,90,120,dinner,0,medium,71.6
+Jasmine Rice (1 cup cooked),grain,205,4.3,45.0,0.4,0.6,0.0,2,0,dinner,0,medium,51.5
+Thai Iced Tea (1 glass),beverage,250,3.0,35.0,12.0,0.0,33.0,50,35,snack,300,medium,18.3
+Papaya (1 cup cubes),fruit,62,0.6,15.7,0.4,2.5,11.0,12,0,snack,0,low,44.9
+Lime Juice (1 tbsp),condiment,4,0.1,1.3,0.0,0.1,0.2,0,0,snack,0,low,42.8
+Macaroni Salad (1 cup),meal/pasta,380,8.0,30.0,25.0,3.0,6.0,750,20,lunch,0,high,45.0
+Celery (1 stalk),vegetable,6,0.3,1.2,0.1,0.6,0.5,32,0,lunch,0,low,44.2
+Blue Cheese (1 oz),dairy,100,6.0,0.7,8.0,0.0,0.1,325,21,snack,0,medium,43.3
+Dark Chocolate (1 oz 70%),dessert,170,2.2,13.0,12.0,3.0,7.0,5,0,snack,0,medium,52.7
+Acai Bowl (1 serving),meal/fruit,350,5.0,60.0,12.0,10.0,30.0,40,0,breakfast,250,high,67.7
+Granola (1/4 cup topping),grain,120,3.0,15.0,6.0,3.0,7.0,20,0,breakfast,0,medium,53.7
+Coconut Flakes (1 tbsp topping),fruit,35,0.3,1.5,3.3,0.7,0.5,1,0,breakfast,0,low,45.3
+Honey (1 tsp drizzle),condiment,21,0.0,5.8,0.0,0.0,5.8,0,0,breakfast,0,low,37.8
+Shrimp Cocktail (4 large shrimp),protein/seafood,60,10.0,1.0,1.0,0.0,0.5,300,110,snack,0,low,45.2
+Cocktail Sauce (2 tbsp),condiment,30,0.5,7.0,0.0,0.5,5.0,450,0,snack,0,low,31.3
+Pork Bun (1 steamed),meal/processed,220,8.0,30.0,8.0,2.0,6.0,400,20,lunch,0,medium,48.6
+Dim Sum (Siu Mai 3 pcs),meal/processed,180,12.0,10.0,10.0,2.0,1.0,550,60,lunch,0,medium,53.3
+Soy Sauce (1 tbsp for dipping),condiment,9,1.0,1.0,0.0,0.1,0.4,920,0,lunch,0,low,23.5
+Oyster (1 medium raw),protein/seafood,8,1.0,0.5,0.2,0.0,0.0,50,10,dinner,0,low,42.3
+Mignonette Sauce (1 tbsp),condiment,5,0.0,1.0,0.0,0.0,0.5,30,0,dinner,0,low,41.3
+Beef Pho (1 large bowl),meal/soup,450,30.0,55.0,12.0,4.0,5.0,1500,60,dinner,500,high,65.5
+Bean Sprouts (1/4 cup garnish),vegetable,8,0.8,1.5,0.1,0.4,1.0,1,0,dinner,0,low,44.4
+Thai Basil (garnish),condiment,1,0.1,0.0,0.0,0.0,0.0,0,0,dinner,0,low,42.5
+Lime Wedge (garnish),condiment,3,0.1,1.0,0.0,0.3,0.2,0,0,dinner,0,low,43.6
+Jalapeno (1 tbsp sliced),vegetable,4,0.1,0.8,0.1,0.4,0.5,1,0,dinner,0,low,43.7
+Hoisin Sauce (1 tbsp),condiment,35,0.3,8.0,0.2,0.1,5.0,220,0,dinner,0,low,34.4
+Sriracha (1 tsp),condiment,5,0.1,1.0,0.1,0.1,0.8,80,0,dinner,0,low,40.5
+Crepe (1 plain),grain,90,3.5,14.0,2.0,0.5,3.0,100,25,breakfast,0,low,44.0
+Nutella (1 tbsp),condiment,100,1.5,11.0,6.0,1.0,10.0,10,0,breakfast,0,medium,40.8
+Powdered Sugar (1 tsp),condiment,10,0.0,2.5,0.0,0.0,2.5,0,0,breakfast,0,low,40.4
+Sake (3 oz),beverage,117,0.4,3.8,0.0,0.0,0.0,4,0,dinner,0,medium,42.9
+Edamame (in pod 1 cup),legume,120,11.0,9.0,5.0,5.0,2.0,9,0,snack,250,medium,78.7
+Biryani (Chicken 1.5 cups),meal/meat,520,28.0,60.0,18.0,5.0,6.0,900,75,dinner,0,very_high,78.4
+Raita (2 tbsp),condiment/dairy,30,1.0,2.0,2.0,0.5,1.5,100,5,dinner,0,low,42.3
+Lassi (Mango 1 cup),beverage,180,5.0,30.0,4.0,1.0,28.0,60,15,snack,240,medium,30.3
+Samosa (1 piece vegetable),snack/processed,130,2.0,18.0,6.0,2.0,1.0,300,0,snack,0,medium,46.4
+Tamarind Chutney (1 tbsp),condiment,20,0.1,5.0,0.0,0.5,4.0,120,0,snack,0,low,38.8
+Mint Chutney (1 tbsp),condiment,5,0.2,0.5,0.0,0.3,0.2,150,0,snack,0,low,40.4
+Pani Puri (6 pcs),snack/processed,200,4.0,35.0,5.0,3.0,2.0,400,0,snack,0,medium,50.7
+Passion Fruit (1 fruit),fruit,17,0.4,4.2,0.1,1.9,2.0,5,0,snack,0,low,49.2
+Kimchi Jjigae (1 bowl),meal/soup,350,15.0,20.0,22.0,5.0,6.0,1200,30,dinner,500,high,53.8
+Silken Tofu (3oz in soup),protein/vegetarian,45,5.0,2.0,2.5,0.5,1.0,5,0,dinner,0,low,51.4
+Pork Belly (1 oz in soup),protein/meat,145,3.0,0.0,15.0,0.0,0.0,150,20,dinner,0,medium,42.6
+Gochugaru (1 tsp),condiment,10,0.3,1.8,0.3,0.5,0.3,1,0,dinner,0,low,44.6
+Gochujang (1 tbsp),condiment,30,0.5,6.0,0.0,0.5,4.0,200,0,dinner,0,low,37.6
+Sesame Oil (1 tsp),condiment,40,0.0,0.0,4.5,0.0,0.0,0,0,dinner,0,low,42.3
+Fish Sauce (1 tsp),condiment,5,0.4,0.5,0.0,0.0,0.4,450,0,dinner,0,low,32.6
+Green Onion (1 tbsp garnish),vegetable,3,0.2,0.7,0.0,0.2,0.2,0,0,dinner,0,low,43.3
+Kombucha (16 oz),beverage,60,0.0,14.0,0.0,0.0,12.0,20,0,snack,473,low,32.5
+Beef Wellington (1 slice),meal/meat,600,30.0,35.0,38.0,4.0,4.0,850,100,dinner,0,very_high,78.7
+Pate (Mushroom 2 tbsp),condiment,70,1.0,2.0,7.0,1.0,1.0,100,0,dinner,0,low,45.1
+Puff Pastry (1 oz wrapper),grain,115,1.5,9.0,8.0,0.5,0.0,100,0,dinner,0,medium,44.5
+Prosciutto (1 slice),protein/meat,35,4.0,0.0,2.5,0.0,0.0,280,10,dinner,0,low,41.8
+Asparagus (6 spears roasted),vegetable,40,4.0,4.0,2.0,3.0,2.0,150,0,dinner,0,low,56.2
+Hollandaise Sauce (1 tbsp),condiment,55,0.5,0.2,6.0,0.0,0.1,75,25,dinner,0,low,40.1
+Flan (1 slice),dessert,220,6.0,35.0,7.0,0.0,33.0,80,90,snack,0,medium,19.4
+Caramel Sauce (1 tbsp),condiment,60,0.0,13.0,1.0,0.0,12.0,30,5,snack,0,low,32.0
+Congee (1 cup plain),meal/grain,130,2.5,28.0,1.0,1.0,0.5,300,0,breakfast,0,medium,43.4
+Pickled Radish (1/4 cup),vegetable,15,0.5,3.0,0.0,1.0,2.0,250,0,breakfast,0,low,40.2
+Pork Floss (1 tbsp),protein/meat,50,4.0,3.0,2.0,0.0,2.5,150,10,breakfast,0,low,42.8
+Century Egg (1 egg),protein,100,7.0,1.0,7.0,0.0,0.5,300,200,breakfast,0,medium,35.8
+Arugula (2 cups),vegetable,10,1.0,0.8,0.2,0.4,0.4,6,0,lunch,0,low,45.1
+Goat Cheese (1 oz),dairy,103,6.1,0.1,8.5,0.0,0.1,146,22,lunch,0,medium,47.4
+Beets (1/2 cup roasted),vegetable,30,0.8,6.8,0.1,1.4,5.8,50,0,lunch,0,low,43.8
+Walnuts (1 tbsp chopped),nut,46,1.1,1.0,4.6,0.5,0.2,0,0,lunch,0,low,46.0
+Balsamic Glaze (1 tbsp),condiment,40,0.0,9.0,0.0,0.0,8.0,10,0,lunch,0,low,35.9
+Bobotie (1 serving),meal/meat,450,25.0,30.0,25.0,5.0,15.0,700,150,dinner,0,high,67.2
+Yellow Rice (1 cup),grain,230,4.0,50.0,1.0,2.0,1.0,300,0,dinner,0,medium,49.5
+Chutney (Mango 1 tbsp),condiment,45,0.1,11.0,0.1,0.5,10.0,180,0,dinner,0,low,32.8
+Malva Pudding (1 slice),dessert,380,5.0,60.0,14.0,2.0,40.0,350,60,snack,0,high,16.3
+Custard (1/4 cup),condiment,80,3.0,10.0,3.0,0.0,8.0,40,40,snack,0,low,37.8
+Bubble Tea (16 oz milk tea),beverage,320,2.0,70.0,4.0,1.0,60.0,100,10,snack,473,high,0.0
+Tapioca Pearls (1/4 cup boba),condiment,100,0.0,25.0,0.0,0.0,20.0,5,0,snack,0,medium,26.6
+Paella (1.5 cups seafood),meal/rice,550,30.0,70.0,18.0,6.0,5.0,1200,110,dinner,0,very_high,78.0
+Chorizo (1 oz in paella),protein/meat,130,6.0,1.0,11.0,0.0,0.5,350,30,dinner,0,medium,42.0
+Saffron (pinch),condiment,1,0.0,0.1,0.0,0.0,0.0,0,0,dinner,0,low,42.3
+Aioli (Garlic 1 tbsp),condiment,95,0.1,0.5,10.5,0.0,0.1,70,5,dinner,0,low,40.6
+Gazpacho (1 cup),meal/soup,90,2.0,12.0,4.0,3.0,7.0,600,0,lunch,240,low,39.2
+Croutons (Garlic 1/4 cup),grain,50,1.5,7.0,2.0,0.5,0.5,140,0,lunch,0,low,43.3
+Olive Oil (1 tsp garnish),condiment,40,0.0,0.0,4.5,0.0,0.0,0,0,lunch,0,low,42.3
+Churros (2 sticks),dessert,240,3.0,30.0,12.0,1.5,10.0,200,20,snack,0,medium,40.0
+Chocolate Sauce (1 tbsp dipping),condiment,50,0.5,10.0,1.5,1.0,8.0,5,0,snack,0,low,40.9
+Cinnamon Sugar (1 tsp),condiment,20,0.0,5.0,0.0,0.0,5.0,0,0,snack,0,low,38.4
+Horchata (1 cup),beverage,140,2.0,25.0,3.0,1.0,22.0,30,5,snack,240,medium,31.5
+Ceviche (1 cup fish),meal/fish,180,25.0,15.0,2.0,3.0,4.0,700,45,lunch,0,medium,72.9
+Red Onion (1/4 cup in ceviche),vegetable,16,0.3,3.7,0.0,0.4,1.8,1,0,lunch,0,low,43.0
+Cilantro (2 tbsp garnish),condiment,1,0.1,0.0,0.0,0.1,0.0,0,0,lunch,0,low,42.9
+Corn Nuts (1 oz),snack/processed,130,2.0,23.0,4.0,2.0,0.0,180,0,snack,0,medium,49.8
+Lomo Saltado (1.5 cups),meal/meat,500,35.0,45.0,22.0,5.0,6.0,1100,90,dinner,0,very_high,84.1
+French Fries (as side),vegetable/processed,200,2.0,25.0,10.0,2.0,0.2,130,0,dinner,0,medium,50.8
+Soy Sauce (1 tbsp in stir-fry),condiment,9,1.0,1.0,0.0,0.1,0.4,920,0,dinner,0,low,23.5
+Aji Amarillo Paste (1 tsp),condiment,5,0.1,1.0,0.0,0.5,0.5,50,0,dinner,0,low,43.1
+Pisco Sour (1 drink),beverage,250,1.0,25.0,0.0,0.0,24.0,5,5,snack,180,medium,24.8
+Egg White (in drink),condiment,17,3.6,0.2,0.0,0.0,0.2,55,0,snack,0,low,46.6
+Angostura Bitters (dash),condiment,5,0.0,0.0,0.0,0.0,0.0,0,0,snack,0,low,42.3
+Alfajores (1 cookie),dessert,180,2.0,22.0,10.0,1.0,15.0,60,20,snack,0,medium,35.5
+Dulce de Leche (1 tbsp filling),condiment,65,1.0,12.0,1.5,0.0,10.0,30,5,snack,0,low,35.2
+Coconut (shredded garnish),fruit,10,0.1,0.5,1.0,0.2,0.1,0,0,snack,0,low,43.2
+Mate (1 cup),beverage,5,0.2,1.0,0.0,0.0,0.0,2,0,breakfast,240,low,42.6
+Media Luna (1 pastry),grain,190,4.0,25.0,8.0,1.0,9.0,150,25,breakfast,0,medium,41.1
+Chimichurri (1 tbsp),condiment,45,0.1,0.5,4.5,0.2,0.1,100,0,dinner,0,low,41.0
+Skirt Steak (4oz grilled),protein/meat,240,26.0,0.0,15.0,0.0,0.0,70,80,dinner,0,medium,77.3
+Provoleta (1 oz grilled cheese),dairy,100,7.0,1.0,8.0,0.0,0.5,250,20,dinner,0,medium,46.3
+Oregano (1 tsp),condiment,3,0.1,0.7,0.0,0.2,0.0,0,0,dinner,0,low,43.3
+Empanada (Beef 1 medium),meal/processed,290,10.0,28.0,16.0,3.0,3.0,550,30,lunch,0,medium,54.4
+Chicken Milanesa (1 serving),meal/meat,450,35.0,30.0,22.0,3.0,2.0,700,100,dinner,0,high,87.3
+Mashed Potatoes (side),vegetable,150,3.0,25.0,4.0,2.0,2.0,300,10,dinner,0,medium,46.6
+Choripan (1 sandwich),meal/processed,550,20.0,40.0,35.0,3.0,4.0,1100,80,lunch,250,very_high,54.4
+Baguette (slice),grain,70,2.5,14.0,0.5,0.6,0.5,150,0,lunch,0,low,45.0
+Pizza (Margherita 1 slice),meal/processed,250,12.0,30.0,10.0,3.0,4.0,600,25,dinner,250,medium,55.9
+Fresh Mozzarella (1 oz),dairy,72,5.0,0.8,5.0,0.0,0.3,138,22,dinner,0,low,45.7
+Basil (2 tbsp fresh),condiment,1,0.1,0.1,0.0,0.1,0.0,0,0,dinner,0,low,42.9
+Carbonara (1.5 cups),meal/pasta,650,25.0,60.0,35.0,4.0,4.0,900,250,dinner,0,very_high,62.0
+Guanciale (1 oz),protein/meat,170,3.0,0.0,18.0,0.0,0.0,450,35,dinner,0,medium,35.2
+Pecorino Cheese (1 tbsp),dairy,25,1.5,0.1,2.0,0.0,0.0,110,6,dinner,0,low,41.9
+Black Pepper (1/4 tsp),condiment,1,0.0,0.2,0.0,0.1,0.0,0,0,dinner,0,low,42.8
+Egg Yolk (1 large in sauce),protein,55,2.7,0.6,4.5,0.0,0.3,8,184,dinner,0,low,36.6
+Supplì (1 piece fried rice ball),snack/processed,200,8.0,25.0,8.0,2.0,2.0,400,25,snack,0,medium,51.5
+Aperol Spritz (1 drink),beverage,180,0.0,20.0,0.0,0.0,20.0,10,0,snack,150,medium,26.5
+Prosecco (3 oz),beverage,70,0.0,2.0,0.0,0.0,1.5,5,0,snack,0,low,41.0
+Orange Slice (garnish),fruit,5,0.1,1.0,0.0,0.2,0.8,0,0,snack,0,low,42.7
+Tagliatelle al Ragù (Bolognese),meal/pasta,550,28.0,65.0,20.0,7.0,8.0,850,70,dinner,500,very_high,86.6
+Ground Beef (2 oz in sauce),protein/meat,140,11.0,0.0,10.0,0.0,0.0,40,35,dinner,0,medium,56.8
+Pancetta (0.5 oz in sauce),protein/meat,45,1.5,0.0,4.5,0.0,0.0,160,10,dinner,0,low,40.6
+Carrot (1/4 minced in sauce),vegetable,10,0.2,2.4,0.1,0.7,1.2,17,0,dinner,0,low,44.3
+Celery (1/4 stalk minced),vegetable,2,0.1,0.4,0.0,0.2,0.2,12,0,dinner,0,low,42.9
+Onion (1/8 minced in sauce),vegetable,5,0.1,1.2,0.0,0.2,0.6,1,0,dinner,0,low,42.8
+Crushed Tomatoes (1/2 cup sauce),vegetable,20,1.0,4.0,0.0,1.5,3.0,200,0,dinner,0,low,43.4
+Parmigiano-Reggiano (1 tbsp),dairy,22,2.0,0.2,1.5,0.0,0.0,95,4,dinner,0,low,43.1
+Cannoli (1 medium),dessert,240,5.0,25.0,13.0,1.0,18.0,100,30,snack,0,medium,36.5
+Ricotta (filling 1 oz),dairy,49,3.2,0.8,3.8,0.0,0.1,23,14,snack,0,low,46.0
+Pistachio (garnish),nut,10,0.4,0.5,0.8,0.2,0.1,0,0,snack,0,low,43.7
+Biscotti (1 cookie),dessert,110,2.0,18.0,4.0,1.0,9.0,50,15,snack,0,medium,40.7
+Espresso (for dipping),beverage,2,0.2,0.0,0.0,0.0,0.0,1,0,snack,30,low,42.6
+Focaccia (1 square),grain,250,8.0,40.0,7.0,2.0,2.0,500,0,lunch,0,medium,50.5
+Rosemary (1 tsp topping),condiment,1,0.0,0.2,0.0,0.1,0.0,0,0,lunch,0,low,42.8
+Olive Oil (1 tbsp drizzle),condiment,120,0.0,0.0,14.0,0.0,0.0,0,0,lunch,0,medium,42.3
+Bruschetta (2 pcs),snack/appetizer,180,4.0,25.0,7.0,3.0,4.0,350,0,snack,0,medium,50.2
+Balsamic Glaze (1 tsp),condiment,13,0.0,3.0,0.0,0.0,2.7,3,0,snack,0,low,40.2
+Ribollita (1.5 cups soup),meal/soup,350,15.0,55.0,8.0,14.0,10.0,900,5,dinner,500,high,96.3
+Cannellini Beans (1/2 cup in soup),legume,105,7.0,20.0,0.5,6.0,1.0,230,0,dinner,0,medium,72.5
+Kale (1 cup in soup),vegetable,33,2.9,6.0,0.6,2.0,1.0,29,0,dinner,0,low,53.8
+Stale Bread (1/2 cup in soup),grain,80,3.0,15.0,1.0,1.0,1.5,160,0,dinner,0,low,46.5
+Polenta (1 cup creamy),meal/grain,150,3.0,32.0,1.0,3.0,1.0,350,5,dinner,0,medium,50.8
+Gorgonzola Cheese (1 oz),dairy,100,6.0,0.7,8.0,0.0,0.1,325,21,dinner,0,medium,43.3
+Negroni (1 drink),beverage,190,0.0,15.0,0.0,0.0,15.0,5,0,snack,90,medium,30.5
+Gin (1 oz),beverage,70,0.0,0.0,0.0,0.0,0.0,0,0,snack,0,low,42.3
+Campari (1 oz),beverage,80,0.0,10.0,0.0,0.0,10.0,5,0,snack,0,low,34.4
+Sweet Vermouth (1 oz),beverage,40,0.0,5.0,0.0,0.0,5.0,0,0,snack,0,low,38.4
+Orange Peel (garnish),condiment,1,0.0,0.2,0.0,0.1,0.0,0,0,snack,0,low,42.8
+Osso Buco (1 serving),meal/meat,550,45.0,15.0,30.0,4.0,6.0,900,150,dinner,0,very_high,96.9
+Gremolata (1 tbsp),condiment,15,0.5,1.0,1.0,0.5,0.5,5,0,dinner,0,low,44.7
+Risotto alla Milanese (1 cup),meal/rice,350,10.0,50.0,12.0,3.0,3.0,700,30,dinner,0,high,51.0
+Saffron (pinch in risotto),condiment,1,0.0,0.1,0.0,0.0,0.0,0,0,dinner,0,low,42.3
+Panettone (1 slice),dessert,320,6.0,50.0,12.0,3.0,25.0,200,70,snack,0,high,36.6
+Candied Fruit (1 tbsp),fruit,30,0.0,8.0,0.0,0.5,8.0,5,0,snack,0,low,38.1
+Amaretti Cookie (2 cookies),dessert,90,2.0,12.0,4.0,1.0,10.0,10,0,snack,0,low,41.6
+Limoncello (1.5 oz shot),beverage,150,0.0,18.0,0.0,0.0,18.0,0,0,snack,0,medium,28.3
+Panna Cotta (1 serving),dessert,300,4.0,25.0,20.0,0.0,22.0,50,70,snack,0,high,26.6
+Berry Coulis (1 tbsp),condiment,20,0.0,5.0,0.0,0.5,4.5,0,0,snack,0,low,40.9
+Saltimbocca (1 serving),meal/meat,380,38.0,5.0,22.0,0.5,1.0,850,120,dinner,0,high,77.9
+Prosciutto (1 slice wrapper),protein/meat,35,4.0,0.0,2.5,0.0,0.0,280,10,dinner,0,low,41.8
+Sage (2 leaves),condiment,1,0.0,0.1,0.0,0.1,0.0,0,0,dinner,0,low,42.8
+Polenta (grilled 1 slice),meal/grain,120,2.5,25.0,1.0,2.0,0.5,300,0,dinner,0,medium,47.5
+Caponata (1/2 cup),meal/vegetable,180,2.0,15.0,14.0,5.0,9.0,400,0,dinner,0,medium,50.4
+Eggplant (1/2 cup in caponata),vegetable,40,0.5,6.0,2.0,2.0,3.0,150,0,dinner,0,low,45.8
+Pine Nuts (1/2 tbsp),nut,48,1.0,1.0,5.0,0.2,0.2,0,0,dinner,0,low,44.6
+Raisins (1 tbsp),fruit,27,0.3,7.0,0.0,0.3,6.0,1,0,dinner,0,low,39.4
+Gelato (Pistachio 1/2 cup),dessert,220,5.0,24.0,12.0,2.0,20.0,60,40,snack,0,medium,39.5
+Waffle Cone (1 small),grain,70,1.0,13.0,1.5,0.5,7.0,30,5,snack,0,low,39.6
+Cacio e Pepe (1.5 cups),meal/pasta,500,18.0,65.0,19.0,4.0,3.0,700,50,dinner,0,very_high,66.7
+Pecorino Romano (1/4 cup),dairy,110,7.5,1.0,8.5,0.0,0.0,450,25,dinner,0,medium,42.7
+Black Pepper (1/2 tsp),condiment,3,0.1,0.7,0.0,0.3,0.0,0,0,dinner,0,low,43.7
+Fiorentina Steak (3oz portion),protein/meat,230,24.0,0.0,15.0,0.0,0.0,60,75,dinner,0,medium,74.6
+Rosemary (garnish),condiment,1,0.0,0.2,0.0,0.1,0.0,0,0,dinner,0,low,42.8
+White Beans (Tuscan style 1/2 cup),legume,150,8.0,20.0,4.0,7.0,2.0,350,0,dinner,0,medium,74.8
+Garlic (1 clove in beans),vegetable,4,0.2,0.9,0.0,0.1,0.0,1,0,dinner,0,low,43.0
+Sage (in beans),condiment,1,0.0,0.1,0.0,0.1,0.0,0,0,dinner,0,low,42.8
+Arancini (1 large ball),snack/processed,250,9.0,30.0,10.0,3.0,3.0,500,30,snack,0,medium,53.9
+Ragù (filling 1 tbsp),condiment,25,1.5,1.0,1.5,0.5,0.5,60,5,snack,0,low,44.8
+Mozzarella (filling 0.5 oz),dairy,40,3.0,0.5,3.0,0.0,0.2,75,10,snack,0,low,44.7
+Breadcrumbs (coating),grain,25,0.5,4.0,0.5,0.5,0.5,50,0,snack,0,low,43.7
+Campari & Soda (1 drink),beverage,85,0.0,10.0,0.0,0.0,10.0,25,0,snack,150,low,34.0
+Olive (garnish),fruit,5,0.0,0.1,0.5,0.1,0.0,30,0,snack,0,low,42.1
+Vitello Tonnato (1 serving),meal/meat,380,35.0,3.0,25.0,0.5,1.0,600,110,lunch,0,high,79.3
+Tuna Sauce (2 tbsp),condiment,100,4.0,1.0,9.0,0.0,0.5,200,15,lunch,0,medium,43.0
+Capers (garnish),condiment,2,0.2,0.4,0.1,0.3,0.1,200,0,lunch,0,low,39.4
+Lemon Slice (garnish),condiment,1,0.0,0.3,0.0,0.1,0.1,0,0,lunch,0,low,42.7
+Gnocchi alla Sorrentina (1.5 cups),meal/pasta,450,15.0,60.0,18.0,6.0,9.0,800,40,dinner,0,high,64.0
+Tomato Sauce (1/2 cup),condiment,40,1.5,7.0,1.0,2.0,4.0,350,0,dinner,0,low,42.1
+Mozzarella (1 oz melted),dairy,80,6.0,1.0,6.0,0.0,0.5,150,20,dinner,0,low,46.9
+Basil (fresh garnish),condiment,1,0.1,0.0,0.0,0.1,0.0,0,0,dinner,0,low,42.9
+Pesto (1/4 cup),condiment,290,5.0,4.0,29.0,2.0,1.0,600,5,dinner,0,medium,44.1
+Pine Nuts (1 tbsp in pesto),nut,95,2.0,2.0,10.0,0.5,0.5,0,0,dinner,0,low,47.2
+Garlic (1/2 clove in pesto),vegetable,2,0.1,0.5,0.0,0.0,0.0,0,0,dinner,0,low,42.5
+Trofie Pasta (1 cup cooked),grain,210,7.0,43.0,1.0,2.0,1.0,5,0,dinner,0,medium,60.8
+Green Beans (1/2 cup w/ pasta),vegetable,15,0.9,3.5,0.1,1.3,1.6,3,0,dinner,0,low,47.9
+Potato (1/2 w/ pasta),vegetable,65,1.0,15.0,0.1,1.0,0.5,3,0,dinner,0,low,47.6
+Espresso Martini (1 drink),beverage,280,0.5,25.0,0.0,0.0,25.0,5,0,snack,120,medium,23.5
+Vodka (1.5 oz),beverage,97,0.0,0.0,0.0,0.0,0.0,0,0,snack,0,low,42.3
+Coffee Liqueur (1 oz),beverage,100,0.0,15.0,0.0,0.0,15.0,2,0,snack,0,medium,30.6
+Espresso (1 oz in drink),beverage,3,0.3,0.0,0.1,0.0,0.0,1,0,snack,0,low,42.8
+Simple Syrup (1/2 oz),condiment,30,0.0,8.0,0.0,0.0,8.0,0,0,snack,0,low,36.1
+Coffee Beans (3 garnish),snack,2,0.1,0.3,0.0,0.1,0.0,0,0,snack,0,low,42.9
+Baba Ganoush (1/4 cup),meal/vegetable,100,2.0,8.0,7.0,4.0,2.0,300,0,snack,0,medium,54.0
+Pita Bread (1 white),grain,165,5.5,33.0,1.2,1.5,1.5,310,0,snack,0,medium,49.1
+Falafel (3 pieces),meal/vegetarian,180,6.0,18.0,9.0,4.0,1.0,320,0,lunch,0,medium,60.6
+Tahini Sauce (1 tbsp),condiment,30,1.0,1.5,2.5,0.5,0.0,45,0,lunch,0,low,45.0
+Pickled Turnips (2 tbsp),vegetable,10,0.2,2.0,0.0,0.5,1.0,200,0,lunch,0,low,39.5
+Shawarma (Chicken 1 wrap),meal/processed,550,30.0,50.0,25.0,6.0,5.0,1100,80,lunch,250,very_high,81.8
+Garlic Sauce (1 tbsp),condiment,90,0.1,1.0,10.0,0.0,0.5,80,5,lunch,0,low,40.1
+Hummus (1/4 cup),legume,130,5.0,10.0,8.0,4.0,1.0,250,0,lunch,0,medium,60.6
+Tabouli (1/2 cup),meal/vegetarian,120,3.0,15.0,6.0,4.0,2.0,300,0,lunch,0,medium,55.5
+Bulgur (1/4 cup in tabouli),grain,76,2.7,16.8,0.2,4.1,0.1,4,0,lunch,0,low,63.6
+Parsley (1/4 cup in tabouli),vegetable,5,0.3,1.0,0.1,0.5,0.1,5,0,lunch,0,low,44.7
+Mint (1 tbsp in tabouli),condiment,1,0.1,0.1,0.0,0.1,0.0,0,0,lunch,0,low,42.9
+Lemon Juice (1 tbsp dressing),condiment,4,0.1,1.3,0.0,0.1,0.2,0,0,lunch,0,low,42.8
+Olive Oil (1 tbsp dressing),condiment,120,0.0,0.0,14.0,0.0,0.0,0,0,lunch,0,medium,42.3
+Kibbeh (1 piece fried),meal/meat,230,9.0,20.0,13.0,3.0,1.0,450,30,snack,0,medium,56.6
+Pine Nuts (1/2 tbsp filling),nut,48,1.0,1.0,5.0,0.2,0.2,0,0,snack,0,low,44.6
+Ground Lamb (1 oz filling),protein/meat,80,5.5,0.0,6.0,0.0,0.0,20,20,snack,0,low,49.4
+Bulgur (1 tbsp shell),grain,15,0.5,3.4,0.0,0.8,0.0,1,0,snack,0,low,46.4
+Lentil Soup (1 cup Middle Eastern),meal/legume,200,10.0,30.0,5.0,10.0,4.0,700,0,lunch,250,medium,81.1
+Cumin (1 tsp),condiment,8,0.3,1.5,0.5,0.4,0.1,3,0,lunch,0,low,44.3
+Coriander (1 tsp),condiment,5,0.1,1.0,0.2,0.5,0.0,1,0,lunch,0,low,44.6
+Lemon Juice (1 tsp in soup),condiment,1,0.0,0.4,0.0,0.0,0.1,0,0,lunch,0,low,42.3
+Pita Crisps (1 oz),snack/processed,130,3.0,18.0,5.0,2.0,1.0,240,0,lunch,0,medium,49.3
+Manakeesh (Za'atar 1 small),meal/vegetarian,300,7.0,45.0,10.0,4.0,2.0,500,0,breakfast,0,high,57.3
+Za'atar (1 tbsp),condiment,40,1.0,3.0,3.0,1.5,0.0,150,0,breakfast,0,low,46.8
+Olive Oil (1 tbsp on bread),condiment,120,0.0,0.0,14.0,0.0,0.0,0,0,breakfast,0,medium,42.3
+Labneh (2 tbsp),dairy,60,4.0,2.0,4.0,0.0,2.0,80,15,breakfast,0,low,44.5
+Cucumber (1/4 cup side),vegetable,8,0.3,1.8,0.0,0.2,0.8,1,0,breakfast,0,low,43.0
+Tomato (1/4 cup side),vegetable,8,0.3,1.8,0.1,0.5,1.2,2,0,breakfast,0,low,43.9
+Olives (5 side),fruit,35,0.2,1.0,3.5,0.5,0.0,210,0,breakfast,0,low,40.1
+Mint Tea (1 cup),beverage,2,0.1,0.5,0.0,0.0,0.0,5,0,breakfast,240,low,42.4
+Stuffed Grape Leaves (3 pcs),meal/vegetarian,150,3.0,20.0,7.0,3.0,3.0,400,0,snack,0,medium,48.3
+Rice (1/4 cup filling),grain,51,1.1,11.1,0.1,0.1,0.0,0,0,snack,0,low,44.5
+Turkish Coffee (1 small cup),beverage,5,0.2,0.5,0.0,0.0,0.0,1,0,snack,60,low,42.6
+Cardamom (in coffee),condiment,1,0.0,0.2,0.0,0.1,0.0,0,0,snack,0,low,42.8
+Shish Tawook (2 skewers),meal/meat,300,35.0,5.0,16.0,1.0,2.0,600,100,dinner,0,high,81.1
+Garlic Sauce (Toum 1 tbsp),condiment,90,0.1,1.0,10.0,0.0,0.5,80,5,dinner,0,low,40.1
+French Fries (side),vegetable/processed,340,4.0,44.0,17.0,4.0,0.3,230,0,dinner,0,high,60.0
+Pickled Cucumber (1/4 cup),vegetable,10,0.5,2.0,0.0,1.0,1.0,300,0,dinner,0,low,39.8
+Fattoush Salad (1.5 cups),meal/vegetarian,250,5.0,25.0,15.0,6.0,5.0,500,0,lunch,0,medium,60.2
+Fried Pita (1/2 pita in salad),grain,80,2.0,12.0,3.0,1.0,0.5,150,0,lunch,0,low,45.9
+Sumac (1/2 tsp dressing),condiment,5,0.1,1.0,0.2,0.5,0.0,1,0,lunch,0,low,44.6
+Pomegranate Molasses (1 tsp),condiment,15,0.0,4.0,0.0,0.0,4.0,0,0,lunch,0,low,39.2

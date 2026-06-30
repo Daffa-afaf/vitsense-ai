@@ -1,0 +1,56 @@
+{
+  "Insufficient_Weight": {
+    "level": "beginner",
+    "preferred_type": [
+      "strength"
+    ],
+    "note": "Fokus pada latihan kekuatan untuk menambah massa otot"
+  },
+  "Normal_Weight": {
+    "level": "intermediate",
+    "preferred_type": [
+      "strength",
+      "cardio"
+    ],
+    "note": "Kombinasi cardio dan strength untuk menjaga komposisi tubuh"
+  },
+  "Overweight_Level_I": {
+    "level": "beginner",
+    "preferred_type": [
+      "cardio",
+      "stretching"
+    ],
+    "note": "Mulai dengan cardio ringan dan stretching"
+  },
+  "Overweight_Level_II": {
+    "level": "beginner",
+    "preferred_type": [
+      "cardio",
+      "stretching"
+    ],
+    "note": "Prioritaskan cardio intensitas rendah"
+  },
+  "Obesity_Type_I": {
+    "level": "beginner",
+    "preferred_type": [
+      "cardio",
+      "stretching"
+    ],
+    "note": "Cardio low-impact seperti jalan kaki atau berenang"
+  },
+  "Obesity_Type_II": {
+    "level": "beginner",
+    "preferred_type": [
+      "stretching",
+      "cardio"
+    ],
+    "note": "Konsultasikan dengan profesional, mulai dari stretching"
+  },
+  "Obesity_Type_III": {
+    "level": "beginner",
+    "preferred_type": [
+      "stretching"
+    ],
+    "note": "Sangat disarankan konsultasi dokter sebelum olahraga"
+  }
+}

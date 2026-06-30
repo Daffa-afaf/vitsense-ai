@@ -1,0 +1,62 @@
+{
+  "model_a": {
+    "n_features": 17,
+    "features": [
+      "Gender",
+      "Age",
+      "Height",
+      "Weight",
+      "family_history_with_overweight",
+      "FAVC",
+      "FCVC",
+      "NCP",
+      "CAEC",
+      "SMOKE",
+      "CH2O",
+      "SCC",
+      "FAF",
+      "TUE",
+      "CALC",
+      "MTRANS",
+      "ActivityLevel"
+    ],
+    "cv_accuracy": 0.9431,
+    "cv_f1_macro": 0.9414,
+    "test_accuracy": 0.9593,
+    "test_f1_macro": 0.9583
+  },
+  "model_b": {
+    "n_features": 20,
+    "features": [
+      "Gender",
+      "Age",
+      "Height",
+      "Weight",
+      "family_history_with_overweight",
+      "FAVC",
+      "FCVC",
+      "NCP",
+      "CAEC",
+      "SMOKE",
+      "CH2O",
+      "SCC",
+      "FAF",
+      "TUE",
+      "CALC",
+      "MTRANS",
+      "BMI",
+      "BMR",
+      "ActivityLevel",
+      "DailyCalorieTarget"
+    ],
+    "cv_accuracy": 0.991,
+    "cv_f1_macro": 0.9906,
+    "test_accuracy": 0.9928,
+    "test_f1_macro": 0.9923
+  },
+  "delta_accuracy": 0.0335,
+  "delta_f1_macro": 0.0341,
+  "leakage_detected": false,
+  "recommended_model": "Model B",
+  "verdict": "no_leakage"
+}

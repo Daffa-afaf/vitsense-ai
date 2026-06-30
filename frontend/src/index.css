@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+:root {
+  /* Variabel Warna Utama dari Desain Google Stitch */
+  --primary: #003dcb;
+  --primary-container: #0f52ff;
+  --on-primary-container: #e1e4ff;
+  --on-primary: #ffffff;
+  --background: #f7f9fb;
+  --surface: #f7f9fb;
+  --surface-container-low: #f2f4f6;
+  --surface-container-lowest: #ffffff;
+  --surface-variant: #e0e3e5;
+  --on-surface: #191c1e;
+  --on-surface-variant: #434656;
+  --outline-variant: rgba(195, 197, 217, 0.3);
+  --secondary: #505f76;
+}
+
+/* 1. Aturan Dasar Halaman Belakang (Desktop Environment) */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hanken Grotesk', sans-serif;
+  background-color: var(--background);
+  color: var(--on-surface);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden; /* Mencegah layar browser desktop ikut bergeser */
+}
+
+/* 2. Container Mockup HP agar Mirip Figma/Stitch (Sudah Dibersihkan dari Scrollbar) */
+#root {
+  width: 100%;
+  max-width: 450px;
+  height: 100vh;
+  max-height: 850px;
+  background-color: var(--surface-container-lowest);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+  border: 1px solid var(--surface-variant);
+  
+  /* PERUBAHAN UTAMA DI SINI */
+  overflow-y: scroll; /* Tetap mengizinkan scroll isi form ke bawah jika panjang */
+  overflow-x: hidden; /* Mematikan total scrollbar horizontal kanan-kiri */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+  /* Menyembunyikan batang visual scrollbar untuk Firefox, IE, dan Edge */
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+/* 3. Menyembunyikan batang visual scrollbar untuk Chrome, Safari, dan Opera pada bingkai HP */
+#root::-webkit-scrollbar {
+  display: none;
+}
+
+/* 4. Gaya Card Pilihan Jenis Kelamin (Male / Female) */
+fieldset {
+  border: 1px solid var(--outline-variant);
+  background-color: var(--surface-container-lowest);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--on-surface);
+}
+
+/* Pengatur letak kartu bersebelahan */
+.gender-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+/* Kartu pasif */
+.gender-card {
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 2px solid var(--surface-variant);
+  border-radius: 12px;
+  color: var(--on-surface-variant);
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.gender-card:hover {
+  background-color: var(--surface-container-low);
+}
+
+/* Kartu ketika dipilih (Active/Checked State) */
+.gender-card.active {
+  border-color: var(--primary);
+  background-color: var(--primary-container);
+  color: var(--on-primary);
+}
+
+/* 5. Gaya Input Box (Usia, Tinggi, Berat) */
+input[type="number"] {
+  width: 100%;
+  background-color: var(--surface-container-low);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 18px;
+  outline: none;
+  transition: all 0.2s ease;
+  color: var(--on-surface);
+}
+
+input[type="number"]:focus {
+  background-color: var(--surface-container-lowest);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 1px var(--primary);
+}
+
+/* 6. Gaya Tombol Navigasi Bawah (Bottom Nav) */
+button {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Tombol Selanjutnya / Lanjutkan */
+button.btn-next {
+  background-color: var(--primary);
+  color: var(--on-primary);
+  padding: 16px 32px;
+  border: none;
+}
+
+button.btn-next:hover {
+  background-color: rgba(0, 61, 203, 0.9);
+}
+
+/* Tombol Kembali */
+button.btn-back {
+  background-color: transparent;
+  color: var(--on-surface-variant);
+  padding: 16px 24px;
+  border: 1px solid var(--surface-variant);
+}
+
+/* Penyelarasan Dropdown Kustom */
+.stitch-select {
+  width: 100%;
+  padding: 12px 16px;
+  background-color: var(--surface-container-low);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  color: var(--on-surface);
+  font-size: 16px;
+  outline: none;
+}
+
+/* Penyelarasan Card Kontainer Putih */
+.stitch-card {
+  background-color: var(--surface-container-lowest);
+  border: 1px solid var(--outline-variant);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.04);
+}
+
+/* Styling Lingkaran Progress (Confidence Score) */
+.progress-ring-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.progress-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Badge Perhatian/Status */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.status-badge.warning {
+  background-color: #ffebe5;
+  color: #ba1a1a;
+}
+.status-badge.success {
+  background-color: #e6f9f0;
+  color: #00875a;
+}
+
+/* Baris Data Target Kalori */
+.calorie-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--surface-variant);
+}
+.calorie-row:last-child {
+  border-bottom: none;
+}
+
+/* Grid Porsi Makan (Meal Plan Overview) */
+.meal-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.meal-chip {
+  background-color: var(--surface-container-low);
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Kartu Menu Rekomendasi */
+.menu-card {
+  border: 1px solid var(--surface-variant);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Protokol Olahraga Badge */
+.workout-tag {
+  background-color: #dde1ff;
+  color: #0037b9;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
