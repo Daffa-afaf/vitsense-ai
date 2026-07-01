@@ -46,6 +46,19 @@ export default function App() {
       // 9-12+ jam = 2 (Banyak)
       const mappedTUE = form.TUE <= 4 ? 0 : form.TUE <= 8 ? 1 : 2;
 
+      let mappedCALC = "no"; // Default jika tidak memilih
+      const currentCALC = String(form.CALC).toLowerCase();
+
+      if (currentCALC.includes("jarang") || currentCALC.includes("sometimes")) {
+        mappedCALC = "Sometimes";
+      } else if (currentCALC.includes("sedang") || currentCALC.includes("sering") || currentCALC.includes("frequently")) {
+        mappedCALC = "Frequently";
+      } else if (currentCALC.includes("selalu") || currentCALC.includes("always")) {
+        mappedCALC = "Always";
+      } else {
+        mappedCALC = "no"; // Jika memilih "Tidak Pernah" / "no"
+      }
+
       const payload = {
         Gender: form.Gender,
         Age: parseFloat(form.Age),
@@ -84,7 +97,7 @@ export default function App() {
       setResult(data);
       setStep(3);
     } catch (e) {
-      setError(e.message);
+       setError(e.message || "Terjadi kesalahan saat menghubungkan ke server.");
     } finally {
       setLoading(false);
     }
