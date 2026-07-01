@@ -24,3 +24,9 @@ dist-ssr
 *.sw?
 
 .vercel
+
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.env

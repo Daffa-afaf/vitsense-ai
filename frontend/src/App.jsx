@@ -73,7 +73,12 @@ export default function App() {
       });
       if (!res.ok) {
         const err = await res.json();
-        throw new Error(err.detail || "Gagal menghubungi server");
+        // Cek jika error berbentuk array detail dari FastAPI Pydantic
+        if (err.detail && Array.isArray(err.detail)) {
+          const pesanError = err.detail.map(d => `${d.loc[1] || 'Input'}: ${d.msg}`).join(", ");
+          throw new Error(pesanError);
+        }
+        throw new Error(err.message || "Gagal menghubungi server");
       }
       const data = await res.json();
       setResult(data);

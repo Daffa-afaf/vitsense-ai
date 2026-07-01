@@ -5,16 +5,18 @@ import ToggleField from "../components/ToggleField";
 export default function StepEating({ form, update, onBack, onNext }) {
   // Pilihan Dropdown Snack & Alkohol dari Google Stitch
   const snackOptions = [
-    { value: "jarang", label: "Jarang (1-2 kali/minggu)" },
-    { value: "sedang", label: "Sedang (1 kali/hari)" },
-    { value: "sering", label: "Sering (2+ kali/hari)" }
-  ];
+  { value: "no", label: "Jarang (1-2 kali/minggu)" },
+  { value: "Sometimes", label: "Sedang (1 kali/hari)" },
+  { value: "Frequently", label: "Sering (2+ kali/hari)" },
+  { value: "Always", label: "Hampir selalu" }
+];
 
-  const alcoholOptions = [
-    { value: "tidak_pernah", label: "Tidak Pernah" },
-    { value: "kadang", label: "Kadang-kadang" },
-    { value: "sering", label: "Sering" }
-  ];
+const alcoholOptions = [
+  { value: "no", label: "Tidak Pernah" },
+  { value: "Sometimes", label: "Kadang-kadang" },
+  { value: "Frequently", label: "Sering" },
+  { value: "Always", label: "Hampir selalu" }
+];
 
   return (
   <div style={{ padding: '24px 16px 100px 16px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -86,7 +88,7 @@ export default function StepEating({ form, update, onBack, onNext }) {
         <div style={{ position: 'relative' }}>
           <select 
             className="stitch-select"
-            value={form.CAEC || "sedang"} 
+            value={form.CAEC || "Sometimes"} 
             onChange={(e) => update({ CAEC: e.target.value })}
           >
             {snackOptions.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
@@ -102,7 +104,7 @@ export default function StepEating({ form, update, onBack, onNext }) {
         <div style={{ position: 'relative' }}>
           <select 
             className="stitch-select"
-            value={form.CALC || "tidak_pernah"} 
+            value={form.CALC || "no"} 
             onChange={(e) => update({ CALC: e.target.value })}
           >
             {alcoholOptions.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}

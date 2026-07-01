@@ -113,7 +113,6 @@ legend {
 
 /* 5. Gaya Input Box (Usia, Tinggi, Berat) */
 input[type="number"] {
-  width: 100%;
   box-sizing: border-box; /*  WAJIB DITAMBAHKAN agar padding tidak menambah lebar total kotak */
   border: 1px solid transparent;
   border-radius: 8px;
