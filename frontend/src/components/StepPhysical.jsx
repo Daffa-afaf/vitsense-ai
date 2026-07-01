@@ -69,68 +69,130 @@ export default function StepPhysical({ form, update, onNext }) {
       </fieldset>
 
       {/* Age */}
-      <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-        <legend style={{ fontSize: '18px' }}>Usia Anda</legend>
-        <div style={{ position: 'relative', width: '100%' }}>
-          <input
-            type="number"
-            placeholder="Misal: 25"
-            value={form.Age}
-            min={10}
-            max={100}
-            onChange={(e) => update({ Age: e.target.value })}
-          />
-          <span style={{ position: 'absolute', right: '16px', top: '50%', transform: 'translateY(-50%)', color: 'var(--on-surface-variant)', fontSize: '14px' }}>
-            Tahun
-          </span>
-        </div>
-      </fieldset>
+<fieldset style={{ display: 'flex', flexDirection: 'column', gap: '8px', border: 'none', padding: 0, margin: 0 }}>
+  <legend style={{ fontSize: '18px', fontWeight: '600', color: 'var(--on-surface)' }}>Usia Anda</legend>
+  {/* Mengubah pembungkus menjadi Flex Container dan memberikan boxSizing */}
+  <div style={{ 
+    display: 'flex', 
+    alignItems: 'center', 
+    justifyContent: 'space-between', 
+    width: '100%', 
+    boxSizing: 'border-box',
+    backgroundColor: 'var(--surface-container-low)',
+    borderRadius: '8px',
+    padding: '0 16px'
+  }}>
+    <input
+      type="number"
+      placeholder="Misal: 25"
+      value={form.Age}
+      min={10}
+      max={100}
+      onChange={(e) => update({ Age: e.target.value })}
+      style={{
+        flex: 1, /* Membantu input mengambil sisa ruang yang tersedia secara fleksibel */
+        width: '100%',
+        height: '48px',
+        border: 'none',
+        background: 'transparent',
+        fontSize: '18px',
+        outline: 'none',
+        color: 'var(--on-surface)',
+        padding: 0
+      }}
+    />
+    {/* Melepaskan posisi absolute agar teks ikut menghitung ruang bersama input */}
+    <span style={{ color: 'var(--on-surface-variant)', fontSize: '14px', marginLeft: '12px', whiteSpace: 'nowrap' }}>
+      Tahun
+    </span>
+  </div>
+</fieldset>
 
-      {/* Height & Weight Container */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-        {/* Height */}
-        <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '8px', margin: 0 }}>
-          <legend style={{ fontSize: '18px' }}>Tinggi Badan</legend>
-          <div style={{ position: 'relative', width: '100%' }}>
-            <input
-              type="number"
-              style={{ borderColor: heightWarning ? 'var(--error)' : 'transparent' }}
-              placeholder="Misal: 1.75"
-              value={form.Height}
-              step="0.01"
-              min={1.0}
-              max={2.5}
-              onChange={(e) => update({ Height: e.target.value })}
-            />
-            <span style={{ position: 'absolute', right: '16px', top: '50%', transform: 'translateY(-50%)', color: 'var(--on-surface-variant)', fontSize: '14px' }}>
-              Meter (m)
-            </span>
-          </div>
-          {heightWarning && <p style={{ color: 'var(--error)', margin: 0, fontSize: '12px' }}>{heightWarning}</p>}
-          <p style={{ color: 'var(--secondary)', margin: 0, fontSize: '12px' }}>
-            Gunakan meter (contoh: 1.75, bukan 175)
-          </p>
-        </fieldset>
+{/* Height & Weight Container */}
+<div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+  {/* Height */}
+  <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '8px', border: 'none', padding: 0, margin: 0 }}>
+    <legend style={{ fontSize: '18px', fontWeight: '600', color: 'var(--on-surface)' }}>Tinggi Badan</legend>
+    <div style={{ 
+      display: 'flex', 
+      alignItems: 'center', 
+      justifyContent: 'space-between', 
+      width: '100%', 
+      boxSizing: 'border-box',
+      backgroundColor: 'var(--surface-container-low)',
+      borderRadius: '8px',
+      padding: '0 16px',
+      border: heightWarning ? '1px solid var(--error)' : '1px solid transparent'
+    }}>
+      <input
+        type="number"
+        placeholder="Misal: 1.75"
+        value={form.Height}
+        step="0.01"
+        min={1.0}
+        max={2.5}
+        onChange={(e) => update({ Height: e.target.value })}
+        style={{
+          flex: 1,
+          width: '100%',
+          height: '48px',
+          border: 'none',
+          background: 'transparent',
+          fontSize: '18px',
+          outline: 'none',
+          color: 'var(--on-surface)',
+          padding: 0
+        }}
+      />
+      <span style={{ color: 'var(--on-surface-variant)', fontSize: '14px', marginLeft: '12px', whiteSpace: 'nowrap' }}>
+        Meter (m)
+      </span>
+    </div>
+    {heightWarning && <p style={{ color: 'var(--error)', margin: 0, fontSize: '12px' }}>{heightWarning}</p>}
+    <p style={{ color: 'var(--secondary)', margin: '4px 0 0 0', fontSize: '12px' }}>
+      Gunakan meter (contoh: 1.75, bukan 175)
+    </p>
+  </fieldset>
 
-        {/* Weight */}
-        <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '8px', margin: 0 }}>
-          <legend style={{ fontSize: '18px' }}>Berat Badan</legend>
-          <div style={{ position: 'relative', width: '100%' }}>
-            <input
-              type="number"
-              placeholder="Misal: 65.5"
-              value={form.Weight}
-              step="0.1"
-              min={20}
-              max={300}
-              onChange={(e) => update({ Weight: e.target.value })}
-            />
-            <span style={{ position: 'absolute', right: '16px', top: '50%', transform: 'translateY(-50%)', color: 'var(--on-surface-variant)', fontSize: '14px' }}>
-              kg
-            </span>
-          </div>
-        </fieldset>
-      </div>
+  {/* Weight */}
+  <fieldset style={{ display: 'flex', flexDirection: 'column', gap: '8px', border: 'none', padding: 0, margin: 0 }}>
+    <legend style={{ fontSize: '18px', fontWeight: '600', color: 'var(--on-surface)' }}>Berat Badan</legend>
+    <div style={{ 
+      display: 'flex', 
+      alignItems: 'center', 
+      justifyContent: 'space-between', 
+      width: '100%', 
+      boxSizing: 'border-box',
+      backgroundColor: 'var(--surface-container-low)',
+      borderRadius: '8px',
+      padding: '0 16px'
+    }}>
+      <input
+        type="number"
+        placeholder="Misal: 65.5"
+        value={form.Weight}
+        step="0.1"
+        min={20}
+        max={300}
+        onChange={(e) => update({ Weight: e.target.value })}
+        style={{
+          flex: 1,
+          width: '100%',
+          height: '48px',
+          border: 'none',
+          background: 'transparent',
+          fontSize: '18px',
+          outline: 'none',
+          color: 'var(--on-surface)',
+          padding: 0
+        }}
+      />
+      <span style={{ color: 'var(--on-surface-variant)', fontSize: '14px', marginLeft: '12px', whiteSpace: 'nowrap' }}>
+        kg
+      </span>
+    </div>
+  </fieldset>
+</div>
 
       {/* Live BMI preview */}
       {form.Height >= 1.0 && form.Height <= 2.5 && form.Weight >= 20 && (
