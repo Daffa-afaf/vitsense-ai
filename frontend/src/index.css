@@ -114,6 +114,7 @@ legend {
 /* 5. Gaya Input Box (Usia, Tinggi, Berat) */
 input[type="number"] {
   width: 100%;
+  box-sizing: border-box; /*  WAJIB DITAMBAHKAN agar padding tidak menambah lebar total kotak */
   background-color: var(--surface-container-low);
   border: 1px solid transparent;
   border-radius: 8px;
@@ -123,6 +124,7 @@ input[type="number"] {
   transition: all 0.2s ease;
   color: var(--on-surface);
 }
+
 
 input[type="number"]:focus {
   background-color: var(--surface-container-lowest);
