@@ -46,6 +46,7 @@ export default function App() {
       // 9-12+ jam = 2 (Banyak)
       const mappedTUE = form.TUE <= 4 ? 0 : form.TUE <= 8 ? 1 : 2;
 
+      // 2. PEMETAAN UNTUK CALC (Konsumsi Alkohol)
       let mappedCALC = "no"; // Default jika tidak memilih
       const currentCALC = String(form.CALC).toLowerCase();
 
@@ -57,6 +58,20 @@ export default function App() {
         mappedCALC = "Always";
       } else {
         mappedCALC = "no"; // Jika memilih "Tidak Pernah" / "no"
+      }
+
+      // 3. PEMETAAN UNTUK CAEC (Konsumsi Camilan)
+      let mappedCAEC = "no";
+      const currentCAEC = String(form.CAEC || "").toLowerCase();
+
+      if (currentCAEC.includes("kadang") || currentCAEC.includes("jarang") || currentCAEC.includes("sometimes")) {
+        mappedCAEC = "Sometimes";
+      } else if (currentCAEC.includes("sedang") || currentCAEC.includes("sering") || currentCAEC.includes("frequently")) {
+        mappedCAEC = "Frequently";
+      } else if (currentCAEC.includes("selalu") || currentCAEC.includes("always")) {
+        mappedCAEC = "Always";
+      } else {
+        mappedCAEC = "no"; // Jika memilih "Tidak" / "no"
       }
 
       const payload = {
