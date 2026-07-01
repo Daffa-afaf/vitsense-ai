@@ -115,10 +115,8 @@ legend {
 input[type="number"] {
   width: 100%;
   box-sizing: border-box; /*  WAJIB DITAMBAHKAN agar padding tidak menambah lebar total kotak */
-  background-color: var(--surface-container-low);
   border: 1px solid transparent;
   border-radius: 8px;
-  padding: 12px 16px;
   font-size: 18px;
   outline: none;
   transition: all 0.2s ease;
