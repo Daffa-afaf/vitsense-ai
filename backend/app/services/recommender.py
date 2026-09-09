@@ -69,6 +69,10 @@ def recommend_food(
             .sample(min(n_per_meal, len(filtered)), random_state=random_state)
         )
 
+        if "food_name_id" in selected.columns:
+            selected = selected.copy()
+            selected["food_name"] = selected["food_name_id"]
+
         cols = [
             c for c in
             ["food_name", "calories", "protein_g", "carbs_g",
@@ -149,6 +153,9 @@ def recommend_workout(
             .head(n_per_bp * 3)
             .sample(min(n_per_bp, len(pool)), random_state=random_state)
         )
+        if "title_id" in selected.columns:
+            selected = selected.copy()
+            selected["Title"] = selected["title_id"]
         by_bodypart[bp] = selected[cols].to_dict(orient="records")
         used_titles.update(selected["Title"].tolist())
 

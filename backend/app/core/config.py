@@ -15,11 +15,13 @@ class Settings(BaseSettings):
 
     # ── CORS ───────────────────────────────────────────────────────
     ALLOWED_ORIGINS: list[str] = ["http://localhost:3000", "http://localhost:5173"]
+    FRONTEND_URL: str = ""
 
     # ── Paths ──────────────────────────────────────────────────────
     BASE_DIR:    Path = Path(__file__).resolve().parents[3]   # project root
     MODELS_DIR:  Path = BASE_DIR / "models"
     DATA_DIR:    Path = BASE_DIR / "data" / "processed"
+    DB_PATH:     Path = BASE_DIR / "data" / "health_history.sqlite3"
 
     # ── Model artifacts ────────────────────────────────────────────
     MODEL_PATH:          Path = MODELS_DIR / "obesity_model.pkl"
@@ -30,6 +32,8 @@ class Settings(BaseSettings):
     # ── Data artifacts ─────────────────────────────────────────────
     FOOD_DB_PATH:         Path = DATA_DIR / "food_clean.csv"
     GYM_DB_PATH:          Path = DATA_DIR / "gym_clean.csv"
+    FOOD_DB_TRANSLATED_PATH: Path = DATA_DIR / "food_clean_id.csv"
+    GYM_DB_TRANSLATED_PATH:  Path = DATA_DIR / "gym_clean_id.csv"
     EXERCISE_MAP_PATH:    Path = DATA_DIR / "obesity_to_exercise_map.json"
 
     # ── Recommendation defaults ────────────────────────────────────

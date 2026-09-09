@@ -11,8 +11,10 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.core.config import settings
+from app.core.database import init_db
 from app.ml.model import artifacts
 from app.api.routes.predict import logger as predict_router
+from app.api.routes.history import router as history_router
 
 # ── Logging ────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -32,6 +34,7 @@ async def lifespan(app: FastAPI):
     """
     log.info("Starting up — loading ML artifacts...")
     try:
+        init_db()
         artifacts.load()
         log.info("ML artifacts loaded successfully.")
     except FileNotFoundError as e:
@@ -71,12 +74,17 @@ User Input → ML Prediction → BMI Analysis → Calorie Target
 
 
 # ── CORS ───────────────────────────────────────────────────────────
+allowed_origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "https://vitsense-ai.vercel.app",
+]
+if settings.FRONTEND_URL and settings.FRONTEND_URL not in allowed_origins:
+    allowed_origins.append(settings.FRONTEND_URL)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins     = [
-        "http://localhost:5173",
-        "https://vitsense-ai.vercel.app",
-        ],
+    allow_origins     = allowed_origins,
     allow_credentials = True,
     allow_methods     = ["*"],
     allow_headers     = ["*"],
@@ -85,6 +93,7 @@ app.add_middleware(
 
 # ── Routes ─────────────────────────────────────────────────────────
 app.include_router(predict_router, prefix="/api/v1")
+app.include_router(history_router, prefix="/api/v1/history")
 
 
 # ── Root ───────────────────────────────────────────────────────────

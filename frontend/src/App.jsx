@@ -4,6 +4,7 @@ import StepEating from "./components/StepEating";
 import StepLifestyle from "./components/StepLifeStyle";
 import ResultPage from "./pages/ResultPage";
 import BottomNav from "./components/BottomNav";
+import { API_BASE, getProfileId, saveWeightLog } from "./lib/history";
 
 const STEPS = ["physical", "eating", "lifestyle", "result"];
 
@@ -94,7 +95,7 @@ export default function App() {
         n_food_per_meal: 3,
         n_workout: 6,
       };
-      const res = await fetch("http://localhost:8000/api/v1/predict", {
+      const res = await fetch(`${API_BASE}/predict`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
@@ -109,6 +110,13 @@ export default function App() {
         throw new Error(err.message || "Gagal menghubungi server");
       }
       const data = await res.json();
+      await saveWeightLog({
+        profile_id: getProfileId(),
+        weight_kg: Number(form.Weight),
+        height_m: Number(form.Height),
+        source: "analysis",
+        note: "Tercatat dari analisis kesehatan",
+      }).catch(() => {});
       setResult(data);
       setStep(3);
     } catch (e) {
@@ -153,6 +161,9 @@ export default function App() {
       {step === 3 && result && (
         <ResultPage
           result={result}
+          profileId={getProfileId()}
+          currentWeight={Number(form.Weight)}
+          currentHeight={Number(form.Height)}
           onReset={() => { setStep(0); setResult(null); }}
         />
       )}

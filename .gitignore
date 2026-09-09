@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local database
+*.sqlite3
+*.db
+
+# Node/Vite
+node_modules/
+frontend/dist/
+frontend/.vercel/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store

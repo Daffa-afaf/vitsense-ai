@@ -3,19 +3,19 @@
 
 :root {
   /* Variabel Warna Utama dari Desain Google Stitch */
-  --primary: #003dcb;
-  --primary-container: #0f52ff;
-  --on-primary-container: #e1e4ff;
+  --primary: #0f766e;
+  --primary-container: #115e59;
+  --on-primary-container: #d7f5ef;
   --on-primary: #ffffff;
-  --background: #f7f9fb;
-  --surface: #f7f9fb;
-  --surface-container-low: #f2f4f6;
+  --background: #edf3f1;
+  --surface: #f7faf9;
+  --surface-container-low: #eef4f2;
   --surface-container-lowest: #ffffff;
   --surface-variant: #e0e3e5;
-  --on-surface: #191c1e;
-  --on-surface-variant: #434656;
-  --outline-variant: rgba(195, 197, 217, 0.3);
-  --secondary: #505f76;
+  --on-surface: #172b2a;
+  --on-surface-variant: #536563;
+  --outline-variant: rgba(91, 117, 113, 0.22);
+  --secondary: #526b68;
 }
 
 /* 1. Aturan Dasar Halaman Belakang (Desktop Environment) */
@@ -36,13 +36,14 @@ html, body {
 /* 2. Container Mockup HP agar Mirip Figma/Stitch (Sudah Dibersihkan dari Scrollbar) */
 #root {
   width: 100%;
-  max-width: 450px;
+  max-width: 1180px;
   height: 100vh;
-  max-height: 850px;
-  background-color: var(--surface-container-lowest);
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
-  border-radius: 24px;
-  border: 1px solid var(--surface-variant);
+  max-height: none;
+  min-height: 100vh;
+  background-color: var(--surface);
+  box-shadow: 0 20px 60px rgba(35, 67, 62, 0.08);
+  border-radius: 0;
+  border: none;
   
   /* PERUBAHAN UTAMA DI SINI */
   overflow-y: scroll; /* Tetap mengizinkan scroll isi form ke bawah jika panjang */
@@ -179,10 +180,162 @@ button.btn-back {
 .stitch-card {
   background-color: var(--surface-container-lowest);
   border: 1px solid var(--outline-variant);
-  border-radius: 16px;
-  padding: 20px;
+  border-radius: 14px;
+  padding: 24px;
   margin-bottom: 16px;
-  box-shadow: 0px 12px 32px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 8px 24px rgba(35, 67, 62, 0.05);
+}
+
+.result-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 20px;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 44px 34px 70px;
+}
+
+.result-header {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 4px 4px 12px;
+  border-bottom: 1px solid var(--surface-variant);
+}
+
+.result-header h2 {
+  margin: 0 0 8px !important;
+  color: var(--on-surface) !important;
+  font-size: clamp(28px, 4vw, 42px) !important;
+  letter-spacing: -0.03em;
+}
+
+.result-header p {
+  max-width: 620px;
+  margin: 0 !important;
+  font-size: 15px !important;
+}
+
+.result-hero {
+  grid-column: 1;
+  min-height: 280px;
+  justify-content: center;
+  background: linear-gradient(145deg, #f5fbf8 0%, #e1f2ed 100%);
+  border-color: rgba(15, 118, 110, 0.18);
+}
+
+.result-hero h3 {
+  font-size: 30px !important;
+  letter-spacing: -0.02em;
+}
+
+.result-calories {
+  grid-column: 2;
+  align-self: stretch;
+}
+
+.result-meals,
+.result-workouts,
+.history-card {
+  grid-column: 1 / -1;
+}
+
+.result-meals .meal-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.result-workouts {
+  margin-bottom: 0;
+}
+
+.result-page > .result-disclosure {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.result-page > p:last-of-type,
+.result-page > button:last-child {
+  grid-column: 1 / -1;
+}
+
+.step-page {
+  width: min(100%, 760px);
+  margin: 0 auto;
+  padding: 36px 28px 64px !important;
+}
+
+.step-header {
+  margin-bottom: 44px !important;
+  padding-bottom: 18px !important;
+  border-color: var(--surface-variant) !important;
+}
+
+.step-header > span {
+  font-size: 20px !important;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 760px) {
+  html, body {
+    align-items: stretch;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .result-page {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 28px 16px 60px;
+  }
+
+  .result-header {
+    display: block;
+    padding: 0 2px 12px;
+  }
+
+  .result-header h2 {
+    font-size: 30px !important;
+  }
+
+  .result-hero {
+    min-height: 0;
+  }
+
+  .result-meals .meal-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .step-page {
+    padding: 24px 16px 48px !important;
+  }
+}
+
+@media (min-width: 761px) {
+  .result-page > .history-card {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 24px;
+  }
+
+  .result-page > .history-card .section-heading,
+  .result-page > .history-card .history-stats,
+  .result-page > .history-card .weight-log-form,
+  .result-page > .history-card .history-error {
+    grid-column: 1;
+  }
+
+  .result-page > .history-card .weight-chart {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    align-self: center;
+    margin: 0;
+  }
 }
 
 /* Styling Lingkaran Progress (Confidence Score) */
@@ -256,6 +409,217 @@ button.btn-back {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Progressive disclosure keeps the result page scannable on mobile. */
+.result-disclosure,
+.meal-disclosure {
+  border: 1px solid var(--surface-variant);
+  border-radius: 10px;
+  background: var(--surface-container-lowest);
+}
+
+.result-disclosure {
+  padding: 0;
+}
+
+.result-disclosure > summary,
+.meal-disclosure > summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--on-surface);
+}
+
+.result-disclosure > summary::-webkit-details-marker,
+.meal-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.result-disclosure > summary::after,
+.meal-disclosure > summary::after {
+  content: '+';
+  float: right;
+  color: var(--primary);
+  font-size: 18px;
+  line-height: 14px;
+}
+
+.result-disclosure[open] > summary::after,
+.meal-disclosure[open] > summary::after {
+  content: '−';
+}
+
+.result-disclosure > summary {
+  padding: 14px 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--on-surface-variant);
+}
+
+.meal-disclosure {
+  margin-bottom: 8px;
+}
+
+.meal-disclosure > summary {
+  padding: 12px;
+}
+
+.meal-summary-label,
+.meal-summary-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.meal-summary-label {
+  color: var(--primary);
+}
+
+.meal-summary-count {
+  float: right;
+  margin-right: 18px;
+  color: var(--on-surface-variant);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.meal-items,
+.workout-items,
+.probability-list {
+  padding: 0 12px 4px;
+}
+
+.workout-disclosure {
+  margin-top: 8px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.section-heading h3 {
+  margin: 2px 0 0;
+  font-size: 18px;
+}
+
+.eyebrow {
+  color: var(--on-surface-variant);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.history-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.history-stats div {
+  padding: 10px 8px;
+  border-radius: 10px;
+  background: var(--surface-container-low);
+  text-align: center;
+}
+
+.history-stats strong,
+.history-stats span {
+  display: block;
+}
+
+.history-stats strong {
+  color: var(--primary);
+  font-size: 18px;
+}
+
+.history-stats span {
+  color: var(--on-surface-variant);
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+.weight-chart {
+  display: flex;
+  align-items: end;
+  gap: 8px;
+  height: 108px;
+  padding: 12px 4px 0;
+  border-bottom: 1px solid var(--surface-variant);
+  margin-bottom: 16px;
+}
+
+.weight-point {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: end;
+  min-width: 0;
+  height: 100%;
+}
+
+.weight-bar {
+  width: min(28px, 100%);
+  min-height: 12px;
+  border-radius: 6px 6px 0 0;
+  background: var(--primary);
+}
+
+.weight-point span {
+  color: var(--on-surface-variant);
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+.weight-log-form {
+  display: grid;
+  gap: 10px;
+}
+
+.weight-log-form label {
+  display: grid;
+  gap: 5px;
+  color: var(--on-surface-variant);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.weight-log-form label span {
+  font-weight: 400;
+}
+
+.weight-log-form input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--surface-variant);
+  border-radius: 8px;
+  background: var(--surface-container-low);
+  color: var(--on-surface);
+  font: inherit;
+}
+
+.history-save {
+  padding: 11px 16px !important;
+}
+
+.history-save:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+.history-error {
+  color: #ba1a1a;
+  font-size: 12px;
+  margin: 10px 0 0;
 }
 
 /* Protokol Olahraga Badge */

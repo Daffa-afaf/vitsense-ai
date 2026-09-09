@@ -69,13 +69,24 @@ class ModelArtifacts:
         with open(settings.EXERCISE_MAP_PATH) as f:
             self.exercise_map = json.load(f)
 
-        self.food_db = pd.read_csv(settings.FOOD_DB_PATH)
-        self.gym_db  = pd.read_csv(settings.GYM_DB_PATH)
+        food_path = (
+            settings.FOOD_DB_TRANSLATED_PATH
+            if settings.FOOD_DB_TRANSLATED_PATH.exists()
+            else settings.FOOD_DB_PATH
+        )
+        gym_path = (
+            settings.GYM_DB_TRANSLATED_PATH
+            if settings.GYM_DB_TRANSLATED_PATH.exists()
+            else settings.GYM_DB_PATH
+        )
+        self.food_db = pd.read_csv(food_path)
+        self.gym_db  = pd.read_csv(gym_path)
 
         self._loaded = True
         logger.info(
             f"Artifacts loaded — model={type(self.model).__name__}, "
-            f"food={self.food_db.shape}, gym={self.gym_db.shape}"
+            f"food={self.food_db.shape} ({food_path.name}), "
+            f"gym={self.gym_db.shape} ({gym_path.name})"
         )
 
     @property
