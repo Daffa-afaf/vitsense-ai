@@ -23,7 +23,12 @@ class Settings(BaseSettings):
     MODELS_DIR:  Path = BASE_DIR / "models"
     DATA_DIR:    Path = BASE_DIR / "data" / "processed"
     DB_PATH:     Path = Path(
-        os.getenv("DB_PATH", str(BASE_DIR / "data" / "health_history.sqlite3"))
+        os.getenv(
+            "DB_PATH",
+            "/tmp/health_history.sqlite3"
+            if os.getenv("VERCEL")
+            else str(BASE_DIR / "data" / "health_history.sqlite3"),
+        )
     )
 
     # ── Model artifacts ────────────────────────────────────────────
