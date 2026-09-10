@@ -89,7 +89,7 @@ export default function App() {
         CH2O: form.CH2O,
         SCC: form.SCC ? "yes" : "no",
         FAF: form.FAF,
-        TUE: mappedTUE, // 👈 UBAH DI SINI: Mengirimkan nilai kategori yang aman untuk StandardScaler
+        TUE: mappedTUE,
         CALC: form.CALC,
         MTRANS: form.MTRANS,
         n_food_per_meal: 3,

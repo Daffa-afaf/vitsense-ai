@@ -3,6 +3,7 @@ app/core/config.py
 Centralized configuration — semua path & konstanta di satu tempat.
 """
 
+import os
 from pathlib import Path
 from pydantic_settings import BaseSettings
 
@@ -21,7 +22,9 @@ class Settings(BaseSettings):
     BASE_DIR:    Path = Path(__file__).resolve().parents[3]   # project root
     MODELS_DIR:  Path = BASE_DIR / "models"
     DATA_DIR:    Path = BASE_DIR / "data" / "processed"
-    DB_PATH:     Path = BASE_DIR / "data" / "health_history.sqlite3"
+    DB_PATH:     Path = Path(
+        os.getenv("DB_PATH", str(BASE_DIR / "data" / "health_history.sqlite3"))
+    )
 
     # ── Model artifacts ────────────────────────────────────────────
     MODEL_PATH:          Path = MODELS_DIR / "obesity_model.pkl"
