@@ -1,4 +1,8 @@
-export const API_BASE = import.meta.env.VITE_API_URL || `http://${window.location.hostname}:8000/api/v1`;
+const configuredApiUrl = import.meta.env.VITE_API_URL?.replace(/\/$/, "");
+const localApiUrl = `http://${window.location.hostname}:8000`;
+export const API_BASE = `${configuredApiUrl || localApiUrl}${
+  (configuredApiUrl || localApiUrl).endsWith("/api/v1") ? "" : "/api/v1"
+}`;
 const PROFILE_KEY = "health-advisor-profile-id";
 
 export function getProfileId() {
