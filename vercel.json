@@ -1,15 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "api/index.py": {
+    "main.py": {
       "includeFiles": "{backend/**,models/**,data/processed/**}",
       "excludeFiles": "{frontend/**,notebook/**,data/raw/**,models/*.png,backend/**/__pycache__/**,**/*.pyc}"
     }
-  },
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.py" }
-  ],
-  "redirects": [
-    { "source": "/", "destination": "/api/" }
-  ]
+  }
 }
